@@ -18,6 +18,9 @@ DEFAULT_LANG = 'en'
 GITHUB_URL = 'https://github.com/henriquemiranda' 
 DEFAULT_CATEGORY = 'About Me'
 
+
+OUTPUT_PATH = '../'
+
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
