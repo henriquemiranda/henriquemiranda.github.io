@@ -11,10 +11,18 @@ My name is Henrique Pereira Coutada Miranda.
 Currently I am a PhD student in Physics and Materials Science at the University of Luxembourg.
 
 You can visit us here:
-http://wwwen.uni.lu/recherche/fstc/physics_and_materials_science_research_unit/research_areas/theoretical_solid_state_physics
+[http://wwwen.uni.lu/recherche](http://wwwen.uni.lu/recherche/fstc/physics_and_materials_science_research_unit/research_areas/theoretical_solid_state_physics)
 
-Here you will find small scripts, games and programs that I implemented and want to share with everyone.
-Most of these projects are still under development.
+Here you will find small scripts, games and programs that I implemented and want to share with everyone.   
+Some of these projects are still under development.
+
+Phonon and exciton visualization
+--------------------------------
+Excitons: <http://henriquemiranda.github.io/excitonwebsite/>  
+Phonons: <http://henriquemiranda.github.io/phononwebsite/>  
+
+Contact
+-------
 
 If you have any suggestions or questions send an e-mail to:  
 miranda dot henrique at gmail
@@ -22,6 +30,10 @@ miranda dot henrique at gmail
 Publications
 ------------
 
-[1] J. Li, H. P. C. Miranda, Y.-M. Niquet, L. Genovese, I. Duchemin, L. Wirtz, and C. Delerue, [Phys. Rev. B 92, 075414 (2015)](http://link.aps.org/doi/10.1103/PhysRevB.92.075414)
-
+[1] J. Li, H. P. C. Miranda, Y.-M. Niquet, L. Genovese, I. Duchemin, L. Wirtz, and C. Delerue, [Phys. Rev. B 92, 075414 (2015)](http://link.aps.org/doi/10.1103/PhysRevB.92.075414)  
 [2] M. Endlich, H. P. C. Miranda, A. Molina-Sánchez, L. Wirtz, and J. Kröger, [Annalen der Physik 526, 372 (2014)](http://onlinelibrary.wiley.com/doi/10.1002/andp.201400091/abstract)
+
+Funding
+-------
+Fonds National de la Recherche Luxembourg (2013-present): <http://www.fnr.lu/>  
+University of Luxembourg (2013-present): <http://wwwen.uni.lu/>  
