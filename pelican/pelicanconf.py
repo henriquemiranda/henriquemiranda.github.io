@@ -15,7 +15,7 @@ TIMEZONE = 'Europe/Luxembourg'
 
 DEFAULT_LANG = 'en'
 
-GITHUB_URL = 'https://github.com/henriquemiranda' 
+GITHUB_URL = 'https://github.com/henriquemiranda'
 DEFAULT_CATEGORY = 'About Me'
 
 
@@ -33,9 +33,10 @@ AUTHOR_FEED_RSS = None
 #         ('Python.org', 'http://python.org/'))
 
 # Social
-#SOCIAL = (
-#    ('Github', 'https://github.com/henriquemiranda/'),
-#    ('Last.fm', 'http://www.last.fm/user/mirandahenrique'),
+SOCIAL = (
+    ('Github', 'https://github.com/henriquemiranda/'),
+    ('Last.fm', 'http://www.last.fm/user/mirandahenrique'),
+    ('linkedin', 'https://www.linkedin.com/in/mirandahenrique'))
 #)
 
 STATIC_PATHS = ['images']

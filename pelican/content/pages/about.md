@@ -4,7 +4,7 @@ Category: About Me
 Url:
 Save_as: index.html
 
-![Alt Text]({filename}/images/me.jpg)
+![A picture of me]({filename}/images/me.jpg)
 
 Welcome!
 My name is Henrique Pereira Coutada Miranda.
