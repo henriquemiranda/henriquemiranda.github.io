@@ -16,6 +16,16 @@ You can visit us here:
 Here you will find small scripts, games and programs that I implemented and want to share with everyone.   
 Some of these projects are still under development.
 
+Short Bio
+---------
+2013-present: PhD on "Resonant Raman intensities in Transition Metal Dichalcogenides" under the supervision of Prof. Ludger Wirtz in the University of Luxembourg.
+
+2012-2013: Master thesis on “Embedding schemes for treating magnetic impurities and defects in metallic systems” under the supervision of Prof. Matthieu Verstraete in the University of Liège and Prof. Myrta Gruning.
+
+2011-2013: Master in Physics (specialization in Computational Physics) in the Physics Department of the Faculty of Sciences and Technology of the University of Coimbra.
+
+2008-2011: Degree in Physics in the Physics Department of the Faculty of Sciences and Technology of the University of Coimbra.
+
 Phonon and exciton visualization
 --------------------------------
 Excitons: <http://henriquemiranda.github.io/excitonwebsite/>  
@@ -23,15 +33,20 @@ Phonons: <http://henriquemiranda.github.io/phononwebsite/>
 
 Contact
 -------
-
 If you have any suggestions or questions send an e-mail to:  
 miranda dot henrique at gmail
 
 Publications
 ------------
-
 [1] J. Li, H. P. C. Miranda, Y.-M. Niquet, L. Genovese, I. Duchemin, L. Wirtz, and C. Delerue, [Phys. Rev. B 92, 075414 (2015)](http://link.aps.org/doi/10.1103/PhysRevB.92.075414)  
 [2] M. Endlich, H. P. C. Miranda, A. Molina-Sánchez, L. Wirtz, and J. Kröger, [Annalen der Physik 526, 372 (2014)](http://onlinelibrary.wiley.com/doi/10.1002/andp.201400091/abstract)
+
+Projects
+--------
+Developer of [yambopy](https://github.com/henriquemiranda/yambopy)  
+Developer of [phononwebsite](https://github.com/henriquemiranda/phononwebsite)  
+Developer of [excitonwebsite](https://github.com/henriquemiranda/excitonwebsite)  
+Colaborator of [yambo](http://www.yambo-code.org/)  
 
 Funding
 -------
