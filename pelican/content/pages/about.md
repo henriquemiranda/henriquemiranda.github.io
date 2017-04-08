@@ -38,8 +38,10 @@ miranda dot henrique at gmail
 
 Publications
 ------------
-[1] J. Li, H. P. C. Miranda, Y.-M. Niquet, L. Genovese, I. Duchemin, L. Wirtz, and C. Delerue, [Phys. Rev. B 92, 075414 (2015)](http://link.aps.org/doi/10.1103/PhysRevB.92.075414)  
-[2] M. Endlich, H. P. C. Miranda, A. Molina-Sánchez, L. Wirtz, and J. Kröger, [Annalen der Physik 526, 372 (2014)](http://onlinelibrary.wiley.com/doi/10.1002/andp.201400091/abstract)
+[1] H.P.C. Miranda, S. Reichardt, G. Froehlicher, A. Molina-Sánchez, S. Berciaud, and L. Wirtz, Nano Lett. (2017).
+[2] T. Galvani, F. Paleari, H.P.C. Miranda, A. Molina-Sánchez, L. Wirtz, S. Latil, H. Amara, and F. Ducastelle, Phys. Rev. B 94, 125303 (2016).
+[3] J. Li, H. P. C. Miranda, Y.-M. Niquet, L. Genovese, I. Duchemin, L. Wirtz, and C. Delerue, [Phys. Rev. B 92, 075414 (2015)](http://link.aps.org/doi/10.1103/PhysRevB.92.075414)  
+[4] M. Endlich, H. P. C. Miranda, A. Molina-Sánchez, L. Wirtz, and J. Kröger, [Annalen der Physik 526, 372 (2014)](http://onlinelibrary.wiley.com/doi/10.1002/andp.201400091/abstract)
 
 Projects
 --------
@@ -51,4 +53,10 @@ Colaborator of [yambo](http://www.yambo-code.org/)
 Funding
 -------
 Fonds National de la Recherche Luxembourg (2013-present): <http://www.fnr.lu/>  
-University of Luxembourg (2013-present): <http://wwwen.uni.lu/>  
+
+<img src="{filename}/images/fnr.jpg" style="width:60%;">
+
+University of Luxembourg (2013-present): <http://wwwen.uni.lu/> 
+
+<img src="{filename}/images/unilu.png" style="width:20%;">
+ 
