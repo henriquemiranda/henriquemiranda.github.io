@@ -46,3 +46,4 @@ THEME='miranda'
 
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
+READERS = {'html': None}

@@ -31,17 +31,13 @@ Phonon and exciton visualization
 Excitons: <http://henriquemiranda.github.io/excitonwebsite/>  
 Phonons: <http://henriquemiranda.github.io/phononwebsite/>  
 
-Contact
--------
-If you have any suggestions or questions send an e-mail to:  
-miranda dot henrique at gmail
-
 Publications
 ------------
-[1] H.P.C. Miranda, S. Reichardt, G. Froehlicher, A. Molina-Sánchez, S. Berciaud, and L. Wirtz, Nano Lett. (2017).
-[2] T. Galvani, F. Paleari, H.P.C. Miranda, A. Molina-Sánchez, L. Wirtz, S. Latil, H. Amara, and F. Ducastelle, Phys. Rev. B 94, 125303 (2016).
-[3] J. Li, H. P. C. Miranda, Y.-M. Niquet, L. Genovese, I. Duchemin, L. Wirtz, and C. Delerue, [Phys. Rev. B 92, 075414 (2015)](http://link.aps.org/doi/10.1103/PhysRevB.92.075414)  
-[4] M. Endlich, H. P. C. Miranda, A. Molina-Sánchez, L. Wirtz, and J. Kröger, [Annalen der Physik 526, 372 (2014)](http://onlinelibrary.wiley.com/doi/10.1002/andp.201400091/abstract)
+
+1. H.P.C. Miranda, S. Reichardt, G. Froehlicher, A. Molina-Sánchez, S. Berciaud, and L. Wirtz, Nano Lett. (2017)
+2. T. Galvani, F. Paleari, H.P.C. Miranda, A. Molina-Sánchez, L. Wirtz, S. Latil, H. Amara, and F. Ducastelle, Phys. Rev. B 94, 125303 (2016)
+3. J. Li, H. P. C. Miranda, Y.-M. Niquet, L. Genovese, I. Duchemin, L. Wirtz, and C. Delerue, [Phys. Rev. B 92, 075414 (2015)](http://link.aps.org/doi/10.1103/PhysRevB.92.075414)  
+4. M. Endlich, H. P. C. Miranda, A. Molina-Sánchez, L. Wirtz, and J. Kröger, [Annalen der Physik 526, 372 (2014)](http://onlinelibrary.wiley.com/doi/10.1002/andp.201400091/abstract)
 
 Projects
 --------
@@ -49,6 +45,11 @@ Developer of [yambopy](https://github.com/henriquemiranda/yambopy)
 Developer of [phononwebsite](https://github.com/henriquemiranda/phononwebsite)  
 Developer of [excitonwebsite](https://github.com/henriquemiranda/excitonwebsite)  
 Colaborator of [yambo](http://www.yambo-code.org/)  
+
+Contact
+-------
+If you have any suggestions or questions send an e-mail to:  
+miranda dot henrique at gmail
 
 Funding
 -------
