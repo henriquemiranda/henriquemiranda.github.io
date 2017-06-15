@@ -34,8 +34,8 @@ Phonons: <http://henriquemiranda.github.io/phononwebsite/>
 Publications
 ------------
 
-1. H.P.C. Miranda, S. Reichardt, G. Froehlicher, A. Molina-Sánchez, S. Berciaud, and L. Wirtz, Nano Lett. (2017)
-2. T. Galvani, F. Paleari, H.P.C. Miranda, A. Molina-Sánchez, L. Wirtz, S. Latil, H. Amara, and F. Ducastelle, Phys. Rev. B 94, 125303 (2016)
+1. H.P.C. Miranda, S. Reichardt, G. Froehlicher, A. Molina-Sánchez, S. Berciaud, and L. Wirtz, [Nano Lett. 4, 17 (2017)](http://dx.doi.org/10.1021/acs.nanolett.6b05345)
+2. T. Galvani, F. Paleari, H.P.C. Miranda, A. Molina-Sánchez, L. Wirtz, S. Latil, H. Amara, and F. Ducastelle, [Phys. Rev. B 94, 125303 (2016)](http://dx.doi.org/10.1103/PhysRevB.94.125303)
 3. J. Li, H. P. C. Miranda, Y.-M. Niquet, L. Genovese, I. Duchemin, L. Wirtz, and C. Delerue, [Phys. Rev. B 92, 075414 (2015)](http://link.aps.org/doi/10.1103/PhysRevB.92.075414)  
 4. M. Endlich, H. P. C. Miranda, A. Molina-Sánchez, L. Wirtz, and J. Kröger, [Annalen der Physik 526, 372 (2014)](http://onlinelibrary.wiley.com/doi/10.1002/andp.201400091/abstract)
 
