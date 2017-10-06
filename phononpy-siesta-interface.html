@@ -16,9 +16,10 @@
 </a>
         <header id="banner" class="body">
                 <h1><a href="./">Henrique Miranda</a></h1>
-                    <h3>Programming, Materials science... with python, C and Javascript</h3>
+                    <h3>Physics, Materials science... with python, C, Fortran and Javascript</h3>
                 <nav><ul>
                     <li><a href="./">About Me</a></li>
+                    <li><a href="./category/computers.html">Computers</a></li>
                     <li class="active"><a href="./category/materials-science.html">Materials science</a></li>
                 </ul></nav>
         </header><!-- /#banner -->
@@ -37,8 +38,19 @@
         </abbr>
 
 
-</footer><!-- /.post-info -->      <p>Recently I gave a small contribution to the fantastic phonopy package by creating a Siesta interface.</p>
-<p>You can obtain the phonopy package from:<br />
+</footer><!-- /.post-info -->      <p>Recently I gave a small contribution to the fantastic phonopy package:
+an interface to use the forces calculates with the Siesta code.</p>
+<p>This interface allows the user to generate a set of supercells with some
+atomic displacements.
+After executing Siesta to obtain the force constants, 
+the interface is able to read them onto phonopy.
+Using phonopy instead of the vibra package provided with
+Siesta might save you some computational time. 
+This is because the vibra package does not use symmetries to
+reduce the number of displaced supercells while the phonopy package does.</p>
+<p>You can then visualize the phonons in the phononwebsite:
+http://henriquemiranda.github.io/phononwebsite/</p>
+<p>You can obtain the phonopy package from: 
 <a href="http://phonopy.sourceforge.net">http://phonopy.sourceforge.net</a></p>
 <p>Siesta website:<br />
 <a href="http://departments.icmab.es/leem/siesta/">http://departments.icmab.es/leem/siesta/</a></p>

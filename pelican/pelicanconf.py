@@ -4,14 +4,14 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Henrique Miranda'
 SITENAME = 'Henrique Miranda'
-SITESUBTITLE = 'Programming, Materials science... with python, C and Javascript'
+SITESUBTITLE = 'Physics, Materials science... with python, C, Fortran and Javascript'
 
 #SITEURL = 'http://henriquemiranda.github.io'
 SITEURL = ''
 
 PATH = 'content'
 
-TIMEZONE = 'Europe/Luxembourg'
+TIMEZONE = 'Europe/Brussels'
 
 DEFAULT_LANG = 'en'
 

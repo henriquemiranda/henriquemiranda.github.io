@@ -7,24 +7,26 @@ Save_as: index.html
 ![A picture of me]({filename}/images/me.jpg)
 
 Welcome!
-My name is Henrique Pereira Coutada Miranda.
-Currently I am a PhD student in Physics and Materials Science at the University of Luxembourg.
 
-You can visit us here:
-[http://wwwen.uni.lu/recherche](http://wwwen.uni.lu/recherche/fstc/physics_and_materials_science_research_unit/research_areas/theoretical_solid_state_physics)
+My name is Henrique Pereira Coutada Miranda.
+Currently I am a Post-doc in Physics and Materials Science at the [Université catholique de Louvain](https://uclouvain.be/).  
 
 Here you will find small scripts, games and programs that I implemented and want to share with everyone.   
 Some of these projects are still under development.
 
 Short Bio
 ---------
-2013-present: PhD on "Resonant Raman intensities in Transition Metal Dichalcogenides" under the supervision of Prof. Ludger Wirtz in the University of Luxembourg.
+2017-present: Post-doc position in the [Université catholique de Louvain](https://uclouvain.be/) in the groups of Prof. Gian-Marco Rignanese and Prof. Geoffroy Hautier
 
-2012-2013: Master thesis on “Embedding schemes for treating magnetic impurities and defects in metallic systems” under the supervision of Prof. Matthieu Verstraete in the University of Liège and Prof. Myrta Gruning.
+2013-2017: PhD on "Resonant Raman intensities in Transition Metal Dichalcogenides" under the supervision of Prof. Ludger Wirtz in the [Theoretical Solid-State Physics Group](https://wwwen.uni.lu/recherche/fstc/physics_and_materials_science_research_unit/research_areas/theoretical_solid_state_physics) in the [University of Luxembourg](https://wwwen.uni.lu/).
 
-2011-2013: Master in Physics (specialization in Computational Physics) in the Physics Department of the Faculty of Sciences and Technology of the University of Coimbra.
+2012-2013: Master thesis on “Embedding schemes for treating magnetic impurities and defects in metallic systems” under the supervision of 
+Prof. Matthieu Verstraete in the [University of Liège](https://www.ulg.ac.be) and 
+Prof. Myrta Gruning at the time in the University of Coimbra now at the [University of Belfast](https://www.qub.ac.uk/).
 
-2008-2011: Degree in Physics in the Physics Department of the Faculty of Sciences and Technology of the University of Coimbra.
+2011-2013: Master in Physics (specialization in Computational Physics) in the Physics Department of the Faculty of Sciences and Technology of the [University of Coimbra](http://www.uc.pt).
+
+2008-2011: Degree in Physics in the Physics Department of the Faculty of Sciences and Technology of the [University of Coimbra](http://www.uc.pt).
 
 Phonon and exciton visualization
 --------------------------------
@@ -53,11 +55,11 @@ miranda dot henrique at gmail
 
 Funding
 -------
-Fonds National de la Recherche Luxembourg (2013-present): <http://www.fnr.lu/>  
+Fonds National de la Recherche Luxembourg (2013-2017): <http://www.fnr.lu/>  
 
-<img src="{filename}/images/fnr.jpg" style="width:60%;">
+<img src="{filename}/images/fnr.jpg" style="width:40%;">
 
-University of Luxembourg (2013-present): <http://wwwen.uni.lu/> 
+University of Luxembourg (2013-2017): <http://wwwen.uni.lu/> 
 
 <img src="{filename}/images/unilu.png" style="width:20%;">
  

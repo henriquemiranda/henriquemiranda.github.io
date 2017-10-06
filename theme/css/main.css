@@ -19,9 +19,9 @@
 body {
     background: #F5F4EF;
     color: #000305;
-    font-size: 87.5%; /* Base font size: 14px */
-    font-family: 'Trebuchet MS', Trebuchet, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    line-height: 1.429;
+    font-size: 1.1rem; /* Base font size: 14px */
+    font-family: 'Georgia', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.6rem;
     margin: 0;
     padding: 0;
     text-align: left;
@@ -29,17 +29,17 @@ body {
 
 /* Headings */
 h1 {font-size: 2em }
-h2 {font-size: 1.571em}	/* 22px */
-h3 {font-size: 1.429em}	/* 20px */
-h4 {font-size: 1.286em}	/* 18px */
-h5 {font-size: 1.143em}	/* 16px */
-h6 {font-size: 1em}		/* 14px */
+h2 {font-size: 1.571rem}	/* 22px */
+h3 {font-size: 1.429rem}	/* 20px */
+h4 {font-size: 1.286rem}	/* 18px */
+h5 {font-size: 1.143rem}	/* 16px */
+h6 {font-size: 1.1rem} 	/* 14px */
 
 h1, h2, h3, h4, h5, h6 {
-	font-weight: 400;
+	//font-weight: 400;
 	line-height: 1.1;
 	margin-bottom: .5em;
-    font-family: 'Trebuchet MS', Trebuchet, 'Lucida Sans Unicode', arial, serif;
+    font-family: 'Roboto', 'Lucida Sans Unicode', arial, serif;
 }
 
 h3, h4, h5, h6 { margin-top: .8em; }
