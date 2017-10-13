@@ -18,7 +18,7 @@ Short Bio
 ---------
 2017-present: Post-doc position in the [Université catholique de Louvain](https://uclouvain.be/) in the groups of Prof. Gian-Marco Rignanese and Prof. Geoffroy Hautier
 
-2013-2017: PhD on "Resonant Raman intensities in Transition Metal Dichalcogenides" under the supervision of Prof. Ludger Wirtz in the [Theoretical Solid-State Physics Group](https://wwwen.uni.lu/recherche/fstc/physics_and_materials_science_research_unit/research_areas/theoretical_solid_state_physics) in the [University of Luxembourg](https://wwwen.uni.lu/).
+2013-2017: PhD on "Ab initio approaches to Resonant Raman Spectroscopy of Transition Metal Dichalcogenides" under the supervision of Prof. Ludger Wirtz in the [Theoretical Solid-State Physics Group](https://wwwen.uni.lu/recherche/fstc/physics_and_materials_science_research_unit/research_areas/theoretical_solid_state_physics) in the [University of Luxembourg](https://wwwen.uni.lu/).
 
 2012-2013: Master thesis on “Embedding schemes for treating magnetic impurities and defects in metallic systems” under the supervision of 
 Prof. Matthieu Verstraete in the [University of Liège](https://www.ulg.ac.be) and 
