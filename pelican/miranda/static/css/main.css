@@ -19,7 +19,7 @@
 body {
     background: #F5F4EF;
     color: #000305;
-    font-size: 1.1rem; /* Base font size: 14px */
+    font-size: 1rem; /* Base font size: 14px */
     font-family: 'Georgia', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     line-height: 1.6rem;
     margin: 0;
@@ -33,7 +33,7 @@ h2 {font-size: 1.571rem}	/* 22px */
 h3 {font-size: 1.429rem}	/* 20px */
 h4 {font-size: 1.286rem}	/* 18px */
 h5 {font-size: 1.143rem}	/* 16px */
-h6 {font-size: 1.1rem} 	/* 14px */
+h6 {font-size: 1rem} 	/* 14px */
 
 h1, h2, h3, h4, h5, h6 {
 	//font-weight: 400;

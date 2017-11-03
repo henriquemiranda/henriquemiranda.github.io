@@ -5,19 +5,15 @@ from __future__ import unicode_literals
 AUTHOR = 'Henrique Miranda'
 SITENAME = 'Henrique Miranda'
 SITESUBTITLE = 'Physics, Materials science... with python, C, Fortran and Javascript'
-
-#SITEURL = 'http://henriquemiranda.github.io'
-SITEURL = ''
+SITEURL = 'http://henriquemiranda.github.io'
 
 PATH = 'content'
 
 TIMEZONE = 'Europe/Brussels'
-
 DEFAULT_LANG = 'en'
 
 GITHUB_URL = 'https://github.com/henriquemiranda'
 DEFAULT_CATEGORY = 'About Me'
-
 
 OUTPUT_PATH = '../'
 
@@ -27,6 +23,7 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
+
 
 # Blogroll
 #LINKS = (('Pelican', 'http://getpelican.com/'),
@@ -39,7 +36,10 @@ SOCIAL = (
     ('linkedin', 'https://www.linkedin.com/in/mirandahenrique'))
 #)
 
-STATIC_PATHS = ['images']
+STATIC_EXCLUDE_SOURCES = False
+PAGE_PATHS = ['pages']
+#STATIC_PATHS = ['images']
+#MENUITEMS = [('About Me','../index.html')]
 
 LOAD_CONTENT_CACHE = False
 THEME='miranda'
