@@ -23,7 +23,7 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
-
+DISPLAY_PAGES_ON_MENU = True
 
 # Blogroll
 #LINKS = (('Pelican', 'http://getpelican.com/'),

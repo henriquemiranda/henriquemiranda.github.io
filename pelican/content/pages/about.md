@@ -2,6 +2,7 @@ Title: About Me
 Date: 2015-09-20 10:54
 Category: About Me
 Save_as: index.html
+Url: index.html 
 
 ![A picture of me]({filename}/images/me.jpg)
 
