@@ -57,6 +57,15 @@ miranda dot henrique at gmail
 
 Funding
 -------
+
+Fonds National de la Recherche Scientifique (2017-present): <http://www.fnrs.be/>
+
+<img src="{filename}/images/fnrs.png" width="150px">
+
+Université Catholique de Louvain (2017-present): <https://uclouvain.be>
+
+<img src="{filename}/images/ucl.jpg" width="150px">
+
 Fonds National de la Recherche Luxembourg (2013-2017): <http://www.fnr.lu/>  
 
 <img src="{filename}/images/fnr.jpg" style="width:40%;">
