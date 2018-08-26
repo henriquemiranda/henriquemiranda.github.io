@@ -36,11 +36,12 @@ Phonons: <http://henriquemiranda.github.io/phononwebsite/>
 Publications
 ------------
 
+7. E. Torun, H.P.C. Miranda, A. Molina-Sánchez, and L. Wirtz, [Phys. Rev. B 97, 245427 (2018)](https://doi.org/10.1103/PhysRevB.97.245427)
 6. G. Petretto, S. Dwaraknath, H.P.C. Miranda, D. Winston, M. Giantomassi, M.J. van Setten, X. Gonze, K.A. Persson, G. Hautier, and G.-M. Rignanese, [Scientific Data 5, 180065 (2018)](http://dx.doi.org/10.1038/sdata.2018.65)
 5. E.V.C. Robert, R. Gunder, J. de Wild, C. Spindler, F. Babbe, H. Elanzeery, B. El Adib, R. Treharne, H.P.C. Miranda, L. Wirtz, S. Schorr, and P.J. Dale, [Acta Materialia 151, 125 (2018)](https://doi.org/10.1016/j.actamat.2018.03.043)
 4. H.P.C. Miranda, S. Reichardt, G. Froehlicher, A. Molina-Sánchez, S. Berciaud, and L. Wirtz, [Nano Lett. 4, 17 (2017)](http://dx.doi.org/10.1021/acs.nanolett.6b05345)
 3. T. Galvani, F. Paleari, H.P.C. Miranda, A. Molina-Sánchez, L. Wirtz, S. Latil, H. Amara, and F. Ducastelle, [Phys. Rev. B 94, 125303 (2016)](http://dx.doi.org/10.1103/PhysRevB.94.125303)
-2. J. Li, H. P. C. Miranda, Y.-M. Niquet, L. Genovese, I. Duchemin, L. Wirtz, and C. Delerue, [Phys. Rev. B 92, 075414 (2015)](http://link.aps.org/doi/10.1103/PhysRevB.92.075414)
+2. J. Li, H. P. C. Miranda, Y.-M. Niquet, L. Genovese, I. Duchemin, L. Wirtz, and C. Delerue, [Phys. Rev. B 92, 075414 (2015)](https://doi.org/10.1103/PhysRevB.92.075414)
 1. M. Endlich, H. P. C. Miranda, A. Molina-Sánchez, L. Wirtz, and J. Kröger, [Annalen der Physik 526, 372 (2014)](http://onlinelibrary.wiley.com/doi/10.1002/andp.201400091/abstract)
 
 Projects
