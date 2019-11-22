@@ -4,21 +4,25 @@ Category: About Me
 Save_as: index.html
 Url: index.html 
 
-![A picture of me]({filename}/images/me.jpg)
+![A picture of me]({static}/images/me.jpg)
 
 Welcome!
 
 My name is Henrique Pereira Coutada Miranda.
-Currently I am a Post-doc in Physics and Materials Science at the [Université catholique de Louvain](https://uclouvain.be/).  
+Currently I am a software developer at [VASP Software GmbH](https://www.vasp.at/) in Vienna.
 
 Here you will find small scripts, games and programs that I implemented and want to share with everyone.   
 Some of these projects are still under development.
 
 Short Bio
 ---------
-2017-present: Post-doc position in the [Université catholique de Louvain](https://uclouvain.be/) in the groups of Prof. Gian-Marco Rignanese and Prof. Geoffroy Hautier
+2019-present: Software developer at [VASP Software GmbH](https://www.vasp.at/)
 
-2013-2017: PhD on ["Ab initio approaches to Resonant Raman Spectroscopy of Transition Metal Dichalcogenides"](http://orbilu.uni.lu/handle/10993/32659) under the supervision of Prof. Ludger Wirtz in the [Theoretical Solid-State Physics Group](https://wwwen.uni.lu/recherche/fstc/physics_and_materials_science_research_unit/research_areas/theoretical_solid_state_physics) in the [University of Luxembourg](https://wwwen.uni.lu/).
+2017-2019: Post-doc position in the [Université catholique de Louvain](https://uclouvain.be/) in the groups of Prof. Gian-Marco Rignanese and Prof. Geoffroy Hautier
+
+2013-2017: PhD on ["Ab initio approaches to Resonant Raman Spectroscopy of Transition Metal Dichalcogenides"](http://orbilu.uni.lu/handle/10993/32659) under the supervision of
+Prof. Ludger Wirtz in the [Theoretical Solid-State Physics Group](https://wwwen.uni.lu/recherche/fstc/physics_and_materials_science_research_unit/research_areas/theoretical_solid_state_physics)
+in the [University of Luxembourg](https://wwwen.uni.lu/).
 
 2012-2013: Master thesis on “Embedding schemes for treating magnetic impurities and defects in metallic systems” under the supervision of 
 Prof. Matthieu Verstraete in the [University of Liège](https://www.ulg.ac.be) and 
@@ -36,6 +40,10 @@ Phonons: <http://henriquemiranda.github.io/phononwebsite/>
 Publications
 ------------
 
+9. D. Sangalli, A. Ferretti, H. Miranda, C. Attaccalite, I. Marri, E. Cannuccia, P. Melo, M. Marsili, F. Paleari, A. Marrazzo, G. Prandini,
+   P. Bonfà, M.O. Atambo, F. Affinito, M. Palummo, A. Molina-Sánchez, C. Hogan, M. Grüning,
+   D. Varsano, and A. Marini, [J. Phys.: Condens. Matter 31, 325902 (2019)](https://doi.org/10.1088/1361-648X/ab15d0).
+8. F. Paleari, H.P.C. Miranda, A. Molina-Sánchez, and L. Wirtz, [Phys. Rev. Lett. 122, 187401 (2019)](https://doi.org/10.1103/PhysRevLett.122.187401)
 7. E. Torun, H.P.C. Miranda, A. Molina-Sánchez, and L. Wirtz, [Phys. Rev. B 97, 245427 (2018)](https://doi.org/10.1103/PhysRevB.97.245427)
 6. G. Petretto, S. Dwaraknath, H.P.C. Miranda, D. Winston, M. Giantomassi, M.J. van Setten, X. Gonze, K.A. Persson, G. Hautier, and G.-M. Rignanese, [Scientific Data 5, 180065 (2018)](http://dx.doi.org/10.1038/sdata.2018.65)
 5. E.V.C. Robert, R. Gunder, J. de Wild, C. Spindler, F. Babbe, H. Elanzeery, B. El Adib, R. Treharne, H.P.C. Miranda, L. Wirtz, S. Schorr, and P.J. Dale, [Acta Materialia 151, 125 (2018)](https://doi.org/10.1016/j.actamat.2018.03.043)
@@ -59,19 +67,19 @@ miranda dot henrique at gmail
 Funding
 -------
 
-Fonds National de la Recherche Scientifique (2017-present): <http://www.fnrs.be/>
+Fonds National de la Recherche Scientifique (2017-2019): <http://www.fnrs.be/> 
 
-<img src="{filename}/images/fnrs.png" width="150px">
+<img src="{static}/images/fnrs.png" width="150px">
 
 Université Catholique de Louvain (2017-present): <https://uclouvain.be>
 
-<img src="{filename}/images/ucl.jpg" width="150px">
+<img src="{static}/images/ucl.jpg" width="150px">
 
 Fonds National de la Recherche Luxembourg (2013-2017): <http://www.fnr.lu/>  
 
-<img src="{filename}/images/fnr.jpg" style="width:40%;">
+<img src="{static}/images/fnr.jpg" style="width:40%;">
 
 University of Luxembourg (2013-2017): <http://wwwen.uni.lu/> 
 
-<img src="{filename}/images/unilu.png" style="width:20%;">
+<img src="{static}/images/unilu.png" style="width:20%;">
  
