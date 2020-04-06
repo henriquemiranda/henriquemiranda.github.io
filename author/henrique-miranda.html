@@ -21,67 +21,67 @@
                     <li><a href="../index.html">About Me</a></li>
                     <li><a href="../category/computers.html">Computers</a></li>
                     <li><a href="../category/materials-science.html">Materials science</a></li>
+                    <li><a href="../category/others.html">Others</a></li>
                 </ul></nav>
         </header><!-- /#banner -->
 
             <aside id="featured" class="body">
                 <article>
-                    <h1 class="entry-title"><a href="../docker-containers.html">Docker containers</a></h1>
+                    <h1 class="entry-title"><a href="../covid-19.html">COVID-19</a></h1>
+<footer class="post-info">
+        <abbr class="published" title="2020-04-04T14:11:00+02:00">
+                Published: Sat 04 April 2020
+        </abbr>
+
+
+</footer><!-- /.post-info --><p>With respect to the ongoing coronavirus pandemic a lot as has been said about imposing quarantine and social distancing measures to "flatten the curve".</p>
+<p>The curve they refer to is obtained by representing the number of people infected with the COVID-19 disease every day.
+Since the real number of infected people is not known, the number of confirmed infections is the best approximation.</p>
+<p>So how does this curve look like at the moment?
+Can we predict how it will look in the future?</p>
+<p>One way to do it is to compartment the total number of individuals in three boxes: (S)usceptible to infection, (I)nfected and (R)ecovered and use some constants to model how many people move between these compartments:</p>
+<p><img src="../images/sir.png" style="width:80%; display: block; margin-left: auto; margin-right: auto;"></p>
+<p>For a more detailed explanation read the Wikipedia page <a href="https://en.wikipedia.org/wiki/Compartmental_models_in_epidemiology#The_SIR_model">here</a></p>
+<p>Using the SIR model for the ongoing corona virus outbreak tends to overestimate the number of infected over time. That is because this model does not account for the quarantine. This does not even need to be a generalized quarantine, as long as the people that are known to be infected self-isolate. Hence the moto of the WHO to "Test, test, test".
+A model that accounts for the quarantine is represented schematically here:</p>
+<p><img src="../images/sirx.png" style="width:80%; display: block; margin-left: auto; margin-right: auto;"></p>
+<p>I first read about this model <a href="http://rocs.hu-berlin.de/corona/docs/forecast/model/">here</a>.
+They provide their own fit to the number of confirmed cases data from the Johns Hopkins University available <a href="https://github.com/CSSEGISandData/COVID-19">here</a>.
+I wanted to see how these curves look like beyond the point where it is shown in the fits so I did my own python implementation of it.
+Here are the fits for Portugal, Austria, Italy and US:
+<img alt="portugal_model" src="../images/portugal.png">
+<img alt="austria_model" src="../images/austria.png">
+<img alt="italy_model" src="../images/italy.png">
+<img alt="us_model" src="../images/us.png"></p>
+<p>The final result depends very sensively on the day at which you start to solve the differential equations (startfit). In the plots represented above I choose different days for the different countries.
+The code to generate these graphs is available <a href="https://github.com/jmpcm/covid19/blob/master/get_sirx.py">here</a></p>
+<p>WARNING: I am by no means a specialist in these type of models or how to solve them. This data is meant for illustrative purposes only. I cannot exclude the possibility of a systematic error in the scripts and all the results shown here being wrong. If you do find such error please let me know so I can fix it. The real <a href="http://rocs.hu-berlin.de/corona/docs/forecast/results_by_country/">experts</a> dont't risk making predictions of more than 7 days and the reason is that they tend to be wrong as time passes. In this work I fit all the variables of the model simultaneously, while the original authors fit only the new variables introduced in the SIR-X model with respect to the SIR.</p>                </article>
+            </aside><!-- /#featured -->
+                <section id="content" class="body">
+                    <h1>Other articles</h1>
+                    <hr />
+                    <ol id="posts-list" class="hfeed">
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="../docker-containers.html" rel="bookmark"
+                           title="Permalink to Docker containers">Docker containers</a></h1>
+                </header>
+
+                <div class="entry-content">
 <footer class="post-info">
         <abbr class="published" title="2017-04-19T14:11:00+02:00">
                 Published: Wed 19 April 2017
         </abbr>
 
 
-</footer><!-- /.post-info --><p>First time I heard about <a href="https://www.docker.com/">docker</a> containers I thought: "Well this is a great idea!".
-When I tried to install them, however, I gave up on the idea.
-The biggest problem for me was the time it takes to get the containeers up and running.
-For someone whose job is to deploy software this is a great help but for everybody else
-the overhead is not be worth the benefit.</p>
-<p>This excuse stopped to make sense when I tried to configure <a href="https://travis-ci.org/">Travis-CI</a> for <a href="https://github.com/henriquemiranda/yambopy">yambopy</a>.
-Travis-CI is a great tool to test software in an automatic way, you should check it out.
-Talking from my little personal experience, if you have your
-code hosted on github you can get the basic setup of Travis-CI running with a couple of clicks.
-To configure the tests and to get them to run is, however, a much more difficult problem.
-At some point I will write here about that as well.</p>
-<p>Now you might ask what is really the relation between Travis-CI and docker?
-The connection became apparent when I tried to setup the environment to run the yambopy test suite in Travis-CI.
-I looked how I could run the Travis-CI environment locally, and found this <a href="http://stackoverflow.com/questions/21053657/how-to-run-travis-ci-locally">post</a> in StackOverflow.</p>
-<p>There I realized that the images used by Travis-CI to run the different environments are available in
-<a href="https://quay.io/organization/travisci">Quay.io</a>.
-I decided then to try to run the container on my local machine and make sure everything works properly. This helped to write the <code>travis.yaml</code> file needed by Travis-CI. Here is a short description of the steps I took.</p>
-<p>First you need to install <code>docker</code> and <code>docker-machine</code> on your computer.
-In my case since I have a Mac with OSX and macports I just typed:</p>
-<div class="highlight"><pre><span></span>sudo port install docker-machine docker-compose docker
-</pre></div>
-
-
-<p>Then you need to start the <code>docker-machine</code>:</p>
-<div class="highlight"><pre><span></span>docker-machine start
-</pre></div>
-
-
-<p>Then download the image you want to use:</p>
-<div class="highlight"><pre><span></span>docker run -it quay.io/travisci/travis-python /bin/bash
-</pre></div>
-
-
-<p>And login in to it.
-This is about it, once you are logged in, you have an operating system inside a docker container.
-You can install your software in it and make sure it runs.
-Then you can move this container to any other computer and you can be sure it will run there as well.</p>
-<p>One important distinction is the difference between images and containers.
-Images contain the operating system and are static.
-Containers are the virtual systems that use the image plus a series of commands to bring the environment you want.
-When you want to run a container in another computer, you just need to download the image in that
-computer, and move the container there.
-This simple idea, the containers, offer many possibilities.
-I will come back to this topic with more details about my personal experience.</p>                </article>
-            </aside><!-- /#featured -->
-                <section id="content" class="body">
-                    <h1>Other articles</h1>
-                    <hr />
-                    <ol id="posts-list" class="hfeed">
+</footer><!-- /.post-info -->                <p>The first time I heard about <a href="https://www.docker.com/">docker</a> containers I thought: "Well this is a great idea!".
+When I tried to install them, however, I gave up.
+The biggest problem was the time it takes to get the containeers up and running.
+For someone whose job is to deploy software this …</p>
+                <a class="readmore" href="../docker-containers.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
 
             <li><article class="hentry">
                 <header>
@@ -168,15 +168,6 @@ the interface is able to …</p>
                 </ol><!-- /#posts-list -->
                 </section><!-- /#content -->
         <section id="extras" class="body">
-                <div class="social">
-                        <h2>social</h2>
-                        <ul>
-
-                            <li><a href="https://github.com/henriquemiranda/">Github</a></li>
-                            <li><a href="http://www.last.fm/user/mirandahenrique">Last.fm</a></li>
-                            <li><a href="https://www.linkedin.com/in/mirandahenrique">linkedin</a></li>
-                        </ul>
-                </div><!-- /.social -->
         </section><!-- /#extras -->
 
         <footer id="contentinfo" class="body">

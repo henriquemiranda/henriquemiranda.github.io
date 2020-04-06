@@ -30,10 +30,10 @@ DISPLAY_PAGES_ON_MENU = True
 #         ('Python.org', 'http://python.org/'))
 
 # Social
-SOCIAL = (
-    ('Github', 'https://github.com/henriquemiranda/'),
-    ('Last.fm', 'http://www.last.fm/user/mirandahenrique'),
-    ('linkedin', 'https://www.linkedin.com/in/mirandahenrique'))
+#SOCIAL = (
+#    ('Github', 'https://github.com/henriquemiranda/'),
+#    ('Last.fm', 'http://www.last.fm/user/mirandahenrique'),
+#    ('linkedin', 'https://www.linkedin.com/in/mirandahenrique'))
 #)
 
 STATIC_EXCLUDE_SOURCES = False
