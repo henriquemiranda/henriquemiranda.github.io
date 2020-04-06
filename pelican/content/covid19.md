@@ -7,7 +7,7 @@ Since the real number of infected people is unknown, using the number of confirm
 
 So how does this curve look like at the moment? Can we predict how it will look in the future?
 
-One way to do this is use epidemiological compartmental models, such as the SIR model. This model compartments the total number of individuals in three boxes: (S)usceptible to infection, (I)nfected and (R)ecovered; and uses some constants to model how many people move between these compartments. The model can be summarized in the following figure.
+One way to do this is use epidemiological compartmental models, such as the SIR model. This model compartments the total number of individuals in three boxes: (S)usceptible to infection, (I)nfected and (R)emoved; and uses some constants to model how many people move between these compartments. The model can be summarized in the following figure.
 
 <img src="{static}/images/sir.png" style="width:80%; display: block; margin-left: auto; margin-right: auto;">
 
@@ -31,6 +31,7 @@ Here are the plots and fits for Portugal, Austria, Italy and US:
 The vertical blue curve represents the day of today (06/04/2020).
 The blue dots are obtained by subtracting the number of recovered to the number of confirmed cases.
 In the SIR-X model the number of infected is obtained by adding X and I provided that the modification in red is present.
+The green and orange vertical lines represent the day in which the maximum number of infected people is observed according to the model as well as the day in which that maximum is observed (Day,Max. infeced).
 The final result depends very sensively on the day at which you start to solve the differential equations (startfit). I choose different days for the different countries.
 The code to generate these graphs is available [here](https://github.com/jmpcm/covid19/blob/master/get_sirx.py)
 
