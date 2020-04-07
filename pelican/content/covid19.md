@@ -26,9 +26,11 @@ Here are the plots and fits for Portugal, Austria, Italy and US:
 ![portugal_model]({static}/images/portugal.png)
 ![austria_model]({static}/images/austria.png)
 ![italy_model]({static}/images/italy.png)
+![spain_model]({static}/images/spain.png)
+![belgium_model]({static}/images/belgium.png)
 ![us_model]({static}/images/us.png)
 
-The vertical blue curve represents the day of today (06/04/2020).
+The vertical blue curve represents the day in the title of the graph.
 The blue dots are obtained by subtracting the number of recovered to the number of confirmed cases.
 In the SIR-X model the number of infected is obtained by adding X and I provided that the modification in red is present.
 The green and orange vertical lines represent the day in which the maximum number of infected people is observed according to the model as well as the number of infected people on that day (Day,Max. infeced).

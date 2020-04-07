@@ -26,9 +26,11 @@ Aqui estão as previsões para Portugal, Áustria, Itália e EUA:
 ![portugal_model]({static}/images/portugal.png)
 ![austria_model]({static}/images/austria.png)
 ![italy_model]({static}/images/italy.png)
+![spain_model]({static}/images/spain.png)
+![belgium_model]({static}/images/belgium.png)
 ![us_model]({static}/images/us.png)
 
-A curva vertical azul representa o dia de hoje (06/04/2020).
+A curva vertical azul representa o dia no título do gráfico.
 Os pontos azuis são obtidos subtraindo o número de indivíduos recuperados ao número de casos confirmados.
 No modelo SIR-X, o número de infectados é obtido adicionando X e I, desde que a modificação a vermelho esteja presente.
 As linhas verticais verde e laranja representam o dia em que o número máximo de pessoas infectadas é observado de acordo com o modelo, bem como o numero de infectados nesse dia (Dia,Máx. infectados).
