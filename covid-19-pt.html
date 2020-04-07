@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8" />
+        <title>COVID-19 (PT)</title>
+        <link rel="stylesheet" href="./theme/css/main.css" />
+
+        <!--[if IE]>
+            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+
+<body id="index" class="home">
+<a href="https://github.com/henriquemiranda">
+<img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub" />
+</a>
+        <header id="banner" class="body">
+                <h1><a href="./">Henrique Miranda</a></h1>
+                    <h3>Physics, Materials science... with python, C, Fortran and Javascript</h3>
+                <nav><ul>
+                    <li><a href="./index.html">About Me</a></li>
+                    <li><a href="./category/computers.html">Computers</a></li>
+                    <li><a href="./category/materials-science.html">Materials science</a></li>
+                    <li class="active"><a href="./category/others.html">Others</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="./covid-19-pt.html" rel="bookmark"
+           title="Permalink to COVID-19 (PT)">COVID-19 (PT)</a></h1>
+    </header>
+
+    <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2020-04-06T14:11:00+02:00">
+                Published: Mon 06 April 2020
+        </abbr>
+
+
+</footer><!-- /.post-info -->      <p>No que respeita à actual pandemia de coronavírus, muito se tem dito sobre a imposição de medidas de quarentena e de distanciamento social para "aplanar a curva" ("flatten the curve" em inglês). A curva refere-se ao número de pessoas infectadas com a doença COVID-19 todos os dias.
+Uma vez que o número real de pessoas infectadas é desconhecido, utilizar o número de infecções confirmadas para prever a forma como a doença se irá propagar, e portanto o crescimento da curva, é a melhor aproximação que temos.</p>
+<p>Então, como se parece esta curva neste momento? Podemos prever como será no futuro?</p>
+<p>Uma forma de o fazer é utilizar modelos de compartimentos epidemiológicos, como o modelo SIR. Este modelo compartimenta o número total de indivíduos em três caixas: (S)useptível para infecção, (I)nfectado e (R)emovido; e usa algumas constantes para modelar quantas pessoas se movem entre esses compartimentos. O modelo pode ser resumido na figura seguinte.</p>
+<p><img src="./images/sir.png" style="width:80%; display: block; margin-left: auto; margin-right: auto;"></p>
+<p>Para uma explicação mais detalhada sobre o modelo SIR, pode ler a página da Wikipedia <a href="https://en.wikipedia.org/wiki/Compartmental_models_in_epidemiology#The_SIR_model">aqui</a></p>
+<p>O modelo SIR para o actual surto do coronavírus tende a sobrestimar o número de infectados ao longo do tempo. Isto porque este modelo não tem em conta os efeitos da quarentena. Não precisa de ser uma quarentena generalizada, desde que as pessoas que se sabe estarem infectadas fiquem isoladas do resto da população. Daí a moto da OMS a "Testar, testar e testar", pois se se testar é possível isolar os infectados e reduzir a propagação da doença.
+Um modelo que explica a quarentena está representado esquematicamente na figura seguinte.</p>
+<p><img src="./images/sirx.png" style="width:80%; display: block; margin-left: auto; margin-right: auto;"></p>
+<p>Onde X é o número de pessoas colocadas em quarentena após terem sido infectadas.
+Eu li pela primeira vez sobre este modelo <a href="http://rocs.hu-berlin.de/corona/docs/forecast/model/">aqui</a>. Modifiquei-o ligeiramente acrescentando a ligação a vermelho (explicarei o motivo abaixo).
+Eles fornecem o seu próprio ajuste ao número de casos confirmados, utilizando os dados da Universidade Johns Hopkins disponíveis <a href="https://github.com/CSSEGISandData/COVID-19">aqui</a>.
+Quis traçar as curvas das pessoas infectadas para além do ponto em que se mostram nas suas <a href="http://rocs.hu-berlin.de/corona/docs/forecast/results_by_country/">previsões</a>, pelo que fiz a minha própria implementação python do modelo SIR-X.
+Aqui estão as previsões para Portugal, Áustria, Itália e EUA:
+<img alt="portugal_model" src="./images/portugal.png">
+<img alt="austria_model" src="./images/austria.png">
+<img alt="italy_model" src="./images/italy.png">
+<img alt="us_model" src="./images/us.png"></p>
+<p>A curva vertical azul representa o dia de hoje (06/04/2020).
+Os pontos azuis são obtidos subtraindo o número de indivíduos recuperados ao número de casos confirmados.
+No modelo SIR-X, o número de infectados é obtido adicionando X e I, desde que a modificação a vermelho esteja presente.
+As linhas verticais verde e laranja representam o dia em que o número máximo de pessoas infectadas é observado de acordo com o modelo, bem como o numero de infectados nesse dia (Dia,Máx. infectados).
+O resultado final depende muito sensivelmente do dia em que se começa a resolver as equações diferenciais (startfit). Eu escolho dias diferentes para os diferentes países.
+O código para gerar estes gráficos está disponível <a href="https://github.com/jmpcm/covid19/blob/master/get_sirx.py">aqui</a></p>
+<p>AVISO: Não sou de modo algum um especialista neste tipo de modelos ou na forma de os resolver. Estes dados destinam-se apenas a fins ilustrativos. Não posso excluir a possibilidade de um erro sistemático e de todos os resultados aqui apresentados estarem errados. Se encontrar tal erro, por favor informe-me para que eu o possa corrigir.
+Os verdadeiros <a href="http://rocs.hu-berlin.de/corona/docs/forecast/results_by_country/">peritos</a> não se arriscam a fazer previsões de mais de 7 dias e a razão é que tendem a estar errados à medida que o tempo passa. Neste trabalho eu ajusto todas as variáveis do modelo simultaneamente, enquanto os autores originais ajustam apenas as novas variáveis introduzidas no modelo SIR-X em relação ao SIR.</p>
+<p>Gostaria de agradecer ao <a href="https://github.com/jmpcm">jmpcm</a> pela revisão deste texto.</p>
+    </div><!-- /.entry-content -->
+
+  </article>
+</section>
+        <section id="extras" class="body">
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+
+                <p>Theme based on <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a></p>
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>

@@ -40,9 +40,11 @@ Phonons: <http://henriquemiranda.github.io/phononwebsite/>
 Publications
 ------------
 
-9. D. Sangalli, A. Ferretti, H. Miranda, C. Attaccalite, I. Marri, E. Cannuccia, P. Melo, M. Marsili, F. Paleari, A. Marrazzo, G. Prandini,
-   P. Bonfà, M.O. Atambo, F. Affinito, M. Palummo, A. Molina-Sánchez, C. Hogan, M. Grüning,
-   D. Varsano, and A. Marini, [J. Phys.: Condens. Matter 31, 325902 (2019)](https://doi.org/10.1088/1361-648X/ab15d0).
+13. G. Brunin, H.P.C. Miranda, M. Giantomassi, M. Royo, M. Stengel, M.J. Verstraete, X. Gonze, G.-M. Rignanese, and G. Hautier, [ArXiv:2002.00628 [Cond-Mat] (2020)](https://arxiv.org/abs/2002.00628)
+12. G. Brunin, H.P.C. Miranda, M. Giantomassi, M. Royo, M. Stengel, M.J. Verstraete, X. Gonze, G.-M. Rignanese, and G. Hautier, [ArXiv:2002.00630 [Cond-Mat] (2020)](https://arxiv.org/abs/2002.00630)
+11. A.H. Romero et al., [J. Chem. Phys. 152, 124102 (2020)](https://doi.org/10.1063/1.5144261)
+10. X. Gonze et al., [Computer Physics Communications 248, 107042 (2020)](https://doi.org/10.1016/j.cpc.2019.107042)
+9. D. Sangalli et al., [J. Phys.: Condens. Matter 31, 325902 (2019)](https://doi.org/10.1088/1361-648X/ab15d0).
 8. F. Paleari, H.P.C. Miranda, A. Molina-Sánchez, and L. Wirtz, [Phys. Rev. Lett. 122, 187401 (2019)](https://doi.org/10.1103/PhysRevLett.122.187401)
 7. E. Torun, H.P.C. Miranda, A. Molina-Sánchez, and L. Wirtz, [Phys. Rev. B 97, 245427 (2018)](https://doi.org/10.1103/PhysRevB.97.245427)
 6. G. Petretto, S. Dwaraknath, H.P.C. Miranda, D. Winston, M. Giantomassi, M.J. van Setten, X. Gonze, K.A. Persson, G. Hautier, and G.-M. Rignanese, [Scientific Data 5, 180065 (2018)](http://dx.doi.org/10.1038/sdata.2018.65)
