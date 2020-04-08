@@ -31,10 +31,10 @@ Aqui estão as previsões para alguns países:
 ![us_model]({static}/images/us.png)
 
 A curva vertical azul representa o dia no título do gráfico.
-Os pontos azuis são obtidos subtraindo o número de indivíduos recuperados ao número de casos confirmados.
+Os pontos azuis são obtidos subtraindo o número de indivíduos recuperados e mortes ao número de casos confirmados.
 No modelo SIR-X, o número de infectados é obtido adicionando X e I, desde que a modificação a vermelho esteja presente.
 As linhas verticais verde e laranja representam o dia em que o número máximo de pessoas infectadas é observado de acordo com o modelo, bem como o numero de infectados nesse dia (Dia,Máx. infectados).
-O resultado final depende muito sensivelmente do dia em que se começa a resolver as equações diferenciais (startfit). Eu escolho dias diferentes para os diferentes países.
+O resultado final depende muito sensivelmente do dia em que se começa a resolver as equações diferenciais. Este dia é escolhido de forma a que o numero de infectados seja igual a 'startfit'.
 O código para gerar estes gráficos está disponível [aqui](https://github.com/jmpcm/covid19/blob/master/get_sirx.py)
 
 AVISO: Não sou de modo algum um especialista neste tipo de modelos ou na forma de os resolver. Estes dados destinam-se apenas a fins ilustrativos. Não posso excluir a possibilidade de um erro sistemático e de todos os resultados aqui apresentados estarem errados. Se encontrar tal erro, por favor informe-me para que eu o possa corrigir.

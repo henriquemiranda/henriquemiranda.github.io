@@ -31,10 +31,10 @@ Here are the plots and fits for some countries:
 ![us_model]({static}/images/us.png)
 
 The vertical blue curve represents the day in the title of the graph.
-The blue dots are obtained by subtracting the number of recovered to the number of confirmed cases.
+The blue dots are obtained by subtracting the number of recovered and deaths to the number of confirmed cases.
 In the SIR-X model the number of infected is obtained by adding X and I provided that the modification in red is present.
 The green and orange vertical lines represent the day in which the maximum number of infected people is observed according to the model as well as the number of infected people on that day (Day,Max. infeced).
-The final result depends very sensively on the day at which you start to solve the differential equations (startfit). I choose different days for the different countries.
+The final result depends very sensively on the day at which you start to solve the differential equations. This day is choosen such that the number of infected is equal to startfit.
 The code to generate these graphs is available [here](https://github.com/jmpcm/covid19/blob/master/get_sirx.py)
 
 WARNING: I am by no means a specialist in these type of models or how to solve them. This data is meant for illustrative purposes only. I cannot exclude the possibility of a systematic error in the scripts and all the results shown here being wrong. If you do find such error please let me know so I can fix it.
