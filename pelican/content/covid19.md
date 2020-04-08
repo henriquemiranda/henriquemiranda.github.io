@@ -22,7 +22,7 @@ Where X is the number of people put in quaratine after being infected.
 I first read about this model [here](http://rocs.hu-berlin.de/corona/docs/forecast/model/). I modified it slightly by adding the connection in red (I will explain the reason below).
 They provide their own fit to the number of confirmed cases, using the data from the Johns Hopkins University available [here](https://github.com/CSSEGISandData/COVID-19).
 I wanted to plot the curves of infected people beyond the point where it is shown in their [fits](http://rocs.hu-berlin.de/corona/docs/forecast/results_by_country/) so I did my own python implementation of the SIR-X model.
-Here are the plots and fits for Portugal, Austria, Italy and US:
+Here are the plots and fits for some countries:
 ![portugal_model]({static}/images/portugal.png)
 ![austria_model]({static}/images/austria.png)
 ![italy_model]({static}/images/italy.png)
@@ -38,6 +38,6 @@ The final result depends very sensively on the day at which you start to solve t
 The code to generate these graphs is available [here](https://github.com/jmpcm/covid19/blob/master/get_sirx.py)
 
 WARNING: I am by no means a specialist in these type of models or how to solve them. This data is meant for illustrative purposes only. I cannot exclude the possibility of a systematic error in the scripts and all the results shown here being wrong. If you do find such error please let me know so I can fix it.
-The real [experts](http://rocs.hu-berlin.de/corona/docs/forecast/results_by_country/) dont't risk making predictions of more than 7 days and the reason is that they tend to be wrong as time passes. In this work I fit all the variables of the model simultaneously, while the original authors fit only the new variables introduced in the SIR-X model with respect to the SIR.
+The real [experts](http://rocs.hu-berlin.de/corona/docs/forecast/results_by_country/) dont't risk making predictions of more than 7 days and the reason is that predictions tend to be wrong as time passes. In this work I fit all the variables of the model simultaneously, while the original authors fit only the new variables introduced in the SIR-X model with respect to the SIR.
 
 I would like to thank [jmpcm](https://github.com/jmpcm) for giving feedback on this text.

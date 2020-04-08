@@ -47,7 +47,7 @@ A model that accounts for the quarantine is represented schematically in the fol
 I first read about this model <a href="http://rocs.hu-berlin.de/corona/docs/forecast/model/">here</a>. I modified it slightly by adding the connection in red (I will explain the reason below).
 They provide their own fit to the number of confirmed cases, using the data from the Johns Hopkins University available <a href="https://github.com/CSSEGISandData/COVID-19">here</a>.
 I wanted to plot the curves of infected people beyond the point where it is shown in their <a href="http://rocs.hu-berlin.de/corona/docs/forecast/results_by_country/">fits</a> so I did my own python implementation of the SIR-X model.
-Here are the plots and fits for Portugal, Austria, Italy and US:
+Here are the plots and fits for some countries:
 <img alt="portugal_model" src="../images/portugal.png">
 <img alt="austria_model" src="../images/austria.png">
 <img alt="italy_model" src="../images/italy.png">
@@ -61,7 +61,7 @@ The green and orange vertical lines represent the day in which the maximum numbe
 The final result depends very sensively on the day at which you start to solve the differential equations (startfit). I choose different days for the different countries.
 The code to generate these graphs is available <a href="https://github.com/jmpcm/covid19/blob/master/get_sirx.py">here</a></p>
 <p>WARNING: I am by no means a specialist in these type of models or how to solve them. This data is meant for illustrative purposes only. I cannot exclude the possibility of a systematic error in the scripts and all the results shown here being wrong. If you do find such error please let me know so I can fix it.
-The real <a href="http://rocs.hu-berlin.de/corona/docs/forecast/results_by_country/">experts</a> dont't risk making predictions of more than 7 days and the reason is that they tend to be wrong as time passes. In this work I fit all the variables of the model simultaneously, while the original authors fit only the new variables introduced in the SIR-X model with respect to the SIR.</p>
+The real <a href="http://rocs.hu-berlin.de/corona/docs/forecast/results_by_country/">experts</a> dont't risk making predictions of more than 7 days and the reason is that predictions tend to be wrong as time passes. In this work I fit all the variables of the model simultaneously, while the original authors fit only the new variables introduced in the SIR-X model with respect to the SIR.</p>
 <p>I would like to thank <a href="https://github.com/jmpcm">jmpcm</a> for giving feedback on this text.</p>                </article>
             </aside><!-- /#featured -->
                 <section id="content" class="body">

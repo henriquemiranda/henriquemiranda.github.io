@@ -22,7 +22,7 @@ Onde X é o número de pessoas colocadas em quarentena após terem sido infectad
 Eu li pela primeira vez sobre este modelo [aqui](http://rocs.hu-berlin.de/corona/docs/forecast/model/). Modifiquei-o ligeiramente acrescentando a ligação a vermelho (explicarei o motivo abaixo).
 Eles fornecem o seu próprio ajuste ao número de casos confirmados, utilizando os dados da Universidade Johns Hopkins disponíveis [aqui](https://github.com/CSSEGISandData/COVID-19).
 Quis traçar as curvas das pessoas infectadas para além do ponto em que se mostram nas suas [previsões](http://rocs.hu-berlin.de/corona/docs/forecast/results_by_country/), pelo que fiz a minha própria implementação python do modelo SIR-X.
-Aqui estão as previsões para Portugal, Áustria, Itália e EUA:
+Aqui estão as previsões para alguns países:
 ![portugal_model]({static}/images/portugal.png)
 ![austria_model]({static}/images/austria.png)
 ![italy_model]({static}/images/italy.png)
@@ -38,6 +38,6 @@ O resultado final depende muito sensivelmente do dia em que se começa a resolve
 O código para gerar estes gráficos está disponível [aqui](https://github.com/jmpcm/covid19/blob/master/get_sirx.py)
 
 AVISO: Não sou de modo algum um especialista neste tipo de modelos ou na forma de os resolver. Estes dados destinam-se apenas a fins ilustrativos. Não posso excluir a possibilidade de um erro sistemático e de todos os resultados aqui apresentados estarem errados. Se encontrar tal erro, por favor informe-me para que eu o possa corrigir.
-Os verdadeiros [peritos](http://rocs.hu-berlin.de/corona/docs/forecast/results_by_country/) não se arriscam a fazer previsões de mais de 7 dias e a razão é que tendem a estar errados à medida que o tempo passa. Neste trabalho eu ajusto todas as variáveis do modelo simultaneamente, enquanto os autores originais ajustam apenas as novas variáveis introduzidas no modelo SIR-X em relação ao SIR.
+Os verdadeiros [peritos](http://rocs.hu-berlin.de/corona/docs/forecast/results_by_country/) não se arriscam a fazer previsões de mais de 7 dias e a razão é que previsões tendem a estar errados à medida que o tempo passa. Neste trabalho eu ajusto todas as variáveis do modelo simultaneamente, enquanto os autores originais ajustam apenas as novas variáveis introduzidas no modelo SIR-X em relação ao SIR.
 
 Gostaria de agradecer ao [jmpcm](https://github.com/jmpcm) pela revisão deste texto.
