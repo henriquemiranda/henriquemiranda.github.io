@@ -41,8 +41,8 @@ Publications
 ------------
 
 14. C. Trovatello et al., [ACS Nano 14, 5700 (2020)](https://doi.org/10.1021/acsnano.0c00309)
-13. G. Brunin, H.P.C. Miranda, M. Giantomassi, M. Royo, M. Stengel, M.J. Verstraete, X. Gonze, G.-M. Rignanese, and G. Hautier, [Phys. Rev. Lett. 125, 136601 (2020)](10.1103/PhysRevLett.125.136601)
-12. G. Brunin, H.P.C. Miranda, M. Giantomassi, M. Royo, M. Stengel, M.J. Verstraete, X. Gonze, G.-M. Rignanese, and G. Hautier, [Phys. Rev. B 102, 094308 (2020)](10.1103/PhysRevB.102.094308)
+13. G. Brunin, H.P.C. Miranda, M. Giantomassi, M. Royo, M. Stengel, M.J. Verstraete, X. Gonze, G.-M. Rignanese, and G. Hautier, [Phys. Rev. Lett. 125, 136601 (2020)](https://doi.org/10.1103/PhysRevLett.125.136601)
+12. G. Brunin, H.P.C. Miranda, M. Giantomassi, M. Royo, M. Stengel, M.J. Verstraete, X. Gonze, G.-M. Rignanese, and G. Hautier, [Phys. Rev. B 102, 094308 (2020)](https://doi.org/10.1103/PhysRevB.102.094308)
 11. A.H. Romero et al., [J. Chem. Phys. 152, 124102 (2020)](https://doi.org/10.1063/1.5144261)
 10. X. Gonze et al., [Computer Physics Communications 248, 107042 (2020)](https://doi.org/10.1016/j.cpc.2019.107042)
 9. D. Sangalli et al., [J. Phys.: Condens. Matter 31, 325902 (2019)](https://doi.org/10.1088/1361-648X/ab15d0)
@@ -65,7 +65,7 @@ Colaborator of [yambo](http://www.yambo-code.org/)
 Contact
 -------
 If you have any suggestions or questions send an e-mail to:  
-miranda dot henrique at gmail
+miranda.henrique at gmail.com
 
 Funding
 -------
