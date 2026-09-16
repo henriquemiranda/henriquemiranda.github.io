@@ -5,7 +5,7 @@ from __future__ import unicode_literals
 AUTHOR = 'Henrique Miranda'
 SITENAME = 'Henrique Miranda'
 SITESUBTITLE = 'Physics, Materials science... with python, C, Fortran and Javascript'
-SITEURL = 'http://henriquemiranda.github.io'
+SITEURL = 'https://henriquemiranda.github.io'
 
 PATH = 'content'
 
@@ -15,7 +15,7 @@ DEFAULT_LANG = 'en'
 GITHUB_URL = 'https://github.com/henriquemiranda'
 DEFAULT_CATEGORY = 'About Me'
 
-OUTPUT_PATH = '../'
+OUTPUT_PATH = 'output'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
