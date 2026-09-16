@@ -12,7 +12,6 @@ PATH = 'content'
 TIMEZONE = 'Europe/Brussels'
 DEFAULT_LANG = 'en'
 
-GITHUB_URL = 'https://github.com/henriquemiranda'
 DEFAULT_CATEGORY = 'About Me'
 
 OUTPUT_PATH = 'output'
