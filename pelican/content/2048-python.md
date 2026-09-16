@@ -1,7 +1,7 @@
 Title: 2048 in the command line with python 
 Date: 2015-09-20 10:54
 Category: Python
-Status: Draft
+Status: skip
 
 Some time ago I heard about a new game that is stealing the time of
 many innocent and unknowing people. The game goes by the name of 2048, you can check 

@@ -1,7 +1,7 @@
 Title: Linking
 Date: 2018-07-20 12:11
 Category: Computers
-Status: Draft
+Status: skip
 
 Linking anything
 ---------------------------------------

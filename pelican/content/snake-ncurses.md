@@ -2,7 +2,7 @@ Title: A snake game with ncruses
 Date: 2015-09-20 10:54
 Category: Programming
 Subcategory: C
-Status: Draft
+Status: skip
 
 Who has never played the famous snake arcade game?
 

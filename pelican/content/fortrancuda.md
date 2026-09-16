@@ -1,7 +1,7 @@
 Title: Fortran CUDA
 Date: 2018-07-20 12:11
 Category: Computers
-Status: Draft
+Status: skip
 
 QE C port using cuda
 ---------------------------------
