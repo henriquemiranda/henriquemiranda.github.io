@@ -52,22 +52,8 @@
                         </ul>
                 </div><!-- /.blogroll -->
         {% endif %}
-        {% if SOCIAL or FEED_ALL_ATOM or FEED_ALL_RSS %}
-                <div class="social">
-                        <h2>Profiles</h2>
-                        <ul>
-                            {% if FEED_ALL_ATOM %}
-                            <li><a href="{{ FEED_DOMAIN }}/{{ FEED_ALL_ATOM }}" type="application/atom+xml" rel="alternate">atom feed</a></li>
-                            {% endif %}
-                            {% if FEED_ALL_RSS %}
-                            <li><a href="{{ FEED_DOMAIN }}/{{ FEED_ALL_RSS }}" type="application/rss+xml" rel="alternate">rss feed</a></li>
-                            {% endif %}
-
-                        {% for name, link in SOCIAL %}
-                            <li><a href="{{ link }}">{{ name }}</a></li>
-                        {% endfor %}
-                        </ul>
-                </div><!-- /.social -->
+        {% if (SOCIAL or FEED_ALL_ATOM or FEED_ALL_RSS) and not (page is defined and page.url == 'index.html') %}
+                {% include 'profiles.html' %}
         {% endif %}
         </section><!-- /#extras -->
 

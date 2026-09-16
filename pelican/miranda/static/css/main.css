@@ -366,6 +366,35 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 #about .bio {float: right; width: 500px;}
 
 /*
+	About-page profiles
+*****************/
+#content.about-page {
+	overflow: hidden;
+}
+
+#content.about-page .about-main {min-width: 0;}
+
+#content.about-page .about-profiles {
+	float: right;
+	width: 190px;
+	margin: .25em 0 1em 2rem;
+	padding: .25em 0;
+}
+
+.about-profiles ul {list-style: none; margin: 0;}
+.about-profiles h2 {
+	color: #C74350;
+	font-size: 1.429em;
+	margin-bottom: .25em;
+}
+.about-profiles a {
+	display: block;
+	padding: .3em .25em .3em 25px;
+	background-repeat: no-repeat;
+	background-position: 3px center;
+}
+
+/*
 	Footer
 *****************/
 #contentinfo {padding-bottom: 2em; text-align: right;}
@@ -382,6 +411,11 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 	#content, #featured {padding: 1.25em;}
 	#content img, #featured img {height: auto; max-width: 100%;}
 	#content, #featured, #extras {overflow-wrap: anywhere;}
+	#content.about-page .about-profiles {
+		float: none;
+		width: auto;
+		margin: 0 0 1.5em;
+	}
 	#extras .social, #extras .blogroll {float: none; width: auto;}
 	#contentinfo {text-align: left;}
 }
