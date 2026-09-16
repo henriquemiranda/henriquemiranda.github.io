@@ -3,7 +3,18 @@
 The site is built with [Pelican](https://getpelican.com/) from the content,
 theme, and configuration in this directory.
 
-## Local build
+## Local preview
+
+From the repository root, run:
+
+```sh
+./pelican/preview
+```
+
+Then open `http://localhost:8000`. The preview rebuilds automatically whenever
+you save a source file. Press `Ctrl+C` to stop it.
+
+## Production build
 
 ```sh
 pip install -r requirements.txt
