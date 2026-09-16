@@ -31,6 +31,7 @@ DISPLAY_PAGES_ON_MENU = True
 
 SOCIAL = (
     ('GitHub', 'https://github.com/henriquemiranda'),
+    ('LinkedIn', 'https://www.linkedin.com/in/mirandahenrique/'),
     ('Google Scholar', 'https://scholar.google.com/citations?user=S9EaNyYAAAAJ&hl=en'),
     ('ORCID', 'https://orcid.org/my-orcid?orcid=0000-0002-2843-0876'),
 )
