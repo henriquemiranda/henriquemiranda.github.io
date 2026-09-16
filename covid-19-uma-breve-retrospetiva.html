@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>COVID-19: uma breve retrospetiva</title>
+        <link rel="stylesheet" href="https://henriquemiranda.github.io/theme/css/main.css" />
+
+        <!--[if IE]>
+            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="https://henriquemiranda.github.io/">Henrique Miranda</a></h1>
+                    <h3>Physics, Materials science... with python, C, Fortran and Javascript</h3>
+                <nav><ul>
+                    <li><a href="https://henriquemiranda.github.io/index.html">About Me</a></li>
+                    <li><a href="https://henriquemiranda.github.io/category/computers.html">Computers</a></li>
+                    <li><a href="https://henriquemiranda.github.io/category/materials-science.html">Materials science</a></li>
+                    <li class="active"><a href="https://henriquemiranda.github.io/category/others.html">Others</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="https://henriquemiranda.github.io/covid-19-uma-breve-retrospetiva.html" rel="bookmark"
+           title="Permalink to COVID-19: uma breve retrospetiva">COVID-19: uma breve retrospetiva</a></h1>
+    </header>
+
+    <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2026-09-16T20:30:00+02:00">
+                Published: Wed 16 September 2026
+        </abbr>
+
+
+</footer><!-- /.post-info -->      <p>Em abril de 2020 ajustei modelos SIR e SIR-X aos casos ativos de COVID-19 reportados. As figuras abaixo reproduzem o procedimento de ajuste original, utilizando apenas os dados disponíveis na altura; a série de dados a azul é prolongada com os <a href="https://github.com/CSSEGISandData/COVID-19">relatórios diários</a> posteriores da Johns Hopkins, até 7 de julho de 2020, o fim da janela original de 90 dias.</p>
+<p><a href="https://henriquemiranda.github.io/scripts/generate_covid19_retrospective.py" download>Descarregar o script Python usado para gerar estas figuras.</a></p>
+<p>Os pontos a azul mostram o número oficial de casos ativos em cada dia, calculado da mesma forma que na publicação original.</p>
+<ul>
+<li><strong>Áustria:</strong> o ajuste SIR-X captou bem o pico inicial e o declínio que se seguiu.</li>
+<li><strong>Itália:</strong> captou o abrandamento, mas subestimou e antecipou o pico (cerca de 91 000 previstos, contra 108 000 reportados).</li>
+<li><strong>Portugal, Espanha e Bélgica:</strong> o ajuste captou a escala do patamar inicial, mas previu o declínio demasiado cedo.</li>
+<li><strong>EUA:</strong> o ajuste falhou para além do seu curto horizonte: o número de casos ativos reportados continuou a aumentar muito depois do pico previsto.</li>
+</ul>
+<p>Embora o modelo SIR-X não seja perfeito, é certamente muito melhor do que o modelo SIR.</p>
+<p><img alt="Retrospetiva de Portugal" src="https://henriquemiranda.github.io/images/covid19-retrospective/portugal-retrospective.png">
+<img alt="Retrospetiva da Áustria" src="https://henriquemiranda.github.io/images/covid19-retrospective/austria-retrospective.png">
+<img alt="Retrospetiva de Itália" src="https://henriquemiranda.github.io/images/covid19-retrospective/italy-retrospective.png">
+<img alt="Retrospetiva de Espanha" src="https://henriquemiranda.github.io/images/covid19-retrospective/spain-retrospective.png">
+<img alt="Retrospetiva da Bélgica" src="https://henriquemiranda.github.io/images/covid19-retrospective/belgium-retrospective.png">
+<img alt="Retrospetiva dos EUA" src="https://henriquemiranda.github.io/images/covid19-retrospective/us-retrospective.png"></p>
+    </div><!-- /.entry-content -->
+
+  </article>
+</section>
+        <section id="extras" class="body">
+<div class="social">
+<h2>Profiles</h2>        <ul>
+            <li><a href="https://github.com/henriquemiranda">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/mirandahenrique/">LinkedIn</a></li>
+            <li><a href="https://scholar.google.com/citations?user=S9EaNyYAAAAJ&hl=en">Google Scholar</a></li>
+            <li><a href="https://orcid.org/my-orcid?orcid=0000-0002-2843-0876">ORCID</a></li>
+        </ul>
+</div><!-- /.social -->        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+
+                <p>Theme based on <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a></p>
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>

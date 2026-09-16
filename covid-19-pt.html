@@ -41,22 +41,22 @@
 Uma vez que o número real de pessoas infectadas é desconhecido, utilizar o número de infecções confirmadas para prever a forma como a doença se irá propagar, e portanto o crescimento da curva, é a melhor aproximação que temos.</p>
 <p>Então, como se parece esta curva neste momento? Podemos prever como será no futuro?</p>
 <p>Uma forma de o fazer é utilizar modelos de compartimentos epidemiológicos, como o modelo SIR. Este modelo compartimenta o número total de indivíduos em três caixas: (S)useptível para infecção, (I)nfectado e (R)emovido; e usa algumas constantes para modelar quantas pessoas se movem entre esses compartimentos. O modelo pode ser resumido na figura seguinte.</p>
-<p><img src="https://henriquemiranda.github.io/images/sir.png" style="width:80%; display: block; margin-left: auto; margin-right: auto;"></p>
+<p><img src="https://henriquemiranda.github.io/images/covid19/sir.png" style="width:80%; display: block; margin-left: auto; margin-right: auto;"></p>
 <p>Para uma explicação mais detalhada sobre o modelo SIR, pode ler a página da Wikipedia <a href="https://en.wikipedia.org/wiki/Compartmental_models_in_epidemiology#The_SIR_model">aqui</a></p>
 <p>O modelo SIR para o actual surto do coronavírus tende a sobrestimar o número de infectados ao longo do tempo. Isto porque este modelo não tem em conta os efeitos da quarentena. Não precisa de ser uma quarentena generalizada, desde que as pessoas que se sabe estarem infectadas fiquem isoladas do resto da população. Daí a moto da OMS a "Testar, testar e testar", pois se se testar é possível isolar os infectados e reduzir a propagação da doença.
 Um modelo que explica a quarentena está representado esquematicamente na figura seguinte.</p>
-<p><img src="https://henriquemiranda.github.io/images/sirx.png" style="width:80%; display: block; margin-left: auto; margin-right: auto;"></p>
+<p><img src="https://henriquemiranda.github.io/images/covid19/sirx.png" style="width:80%; display: block; margin-left: auto; margin-right: auto;"></p>
 <p>Onde X é o número de pessoas colocadas em quarentena após terem sido infectadas.
 Eu li pela primeira vez sobre este modelo <a href="http://rocs.hu-berlin.de/corona/docs/forecast/model/">aqui</a>. Modifiquei-o ligeiramente acrescentando a ligação a vermelho (explicarei o motivo abaixo).
 Eles fornecem o seu próprio ajuste ao número de casos confirmados, utilizando os dados da Universidade Johns Hopkins disponíveis <a href="https://github.com/CSSEGISandData/COVID-19">aqui</a>.
 Quis traçar as curvas das pessoas infectadas para além do ponto em que se mostram nas suas <a href="http://rocs.hu-berlin.de/corona/docs/forecast/results_by_country/">previsões</a>, pelo que fiz a minha própria implementação python do modelo SIR-X.
 Aqui estão as previsões para alguns países:
-<img alt="portugal_model" src="https://henriquemiranda.github.io/images/portugal.png">
-<img alt="austria_model" src="https://henriquemiranda.github.io/images/austria.png">
-<img alt="italy_model" src="https://henriquemiranda.github.io/images/italy.png">
-<img alt="spain_model" src="https://henriquemiranda.github.io/images/spain.png">
-<img alt="belgium_model" src="https://henriquemiranda.github.io/images/belgium.png">
-<img alt="us_model" src="https://henriquemiranda.github.io/images/us.png"></p>
+<img alt="portugal_model" src="https://henriquemiranda.github.io/images/covid19/portugal.png">
+<img alt="austria_model" src="https://henriquemiranda.github.io/images/covid19/austria.png">
+<img alt="italy_model" src="https://henriquemiranda.github.io/images/covid19/italy.png">
+<img alt="spain_model" src="https://henriquemiranda.github.io/images/covid19/spain.png">
+<img alt="belgium_model" src="https://henriquemiranda.github.io/images/covid19/belgium.png">
+<img alt="us_model" src="https://henriquemiranda.github.io/images/covid19/us.png"></p>
 <p>A curva vertical azul representa o dia no título do gráfico.
 Os pontos azuis são obtidos subtraindo o número de indivíduos recuperados e mortes ao número de casos confirmados.
 No modelo SIR-X, o número de infectados é obtido adicionando X e I, desde que a modificação a vermelho esteja presente.
@@ -71,17 +71,14 @@ Os verdadeiros <a href="http://rocs.hu-berlin.de/corona/docs/forecast/results_by
   </article>
 </section>
         <section id="extras" class="body">
-                <div class="social">
-                        <h2>Profiles</h2>
-                        <ul>
-
-                            <li><a href="https://github.com/henriquemiranda">GitHub</a></li>
-                            <li><a href="https://www.linkedin.com/in/mirandahenrique/">LinkedIn</a></li>
-                            <li><a href="https://scholar.google.com/citations?user=S9EaNyYAAAAJ&hl=en">Google Scholar</a></li>
-                            <li><a href="https://orcid.org/my-orcid?orcid=0000-0002-2843-0876">ORCID</a></li>
-                        </ul>
-                </div><!-- /.social -->
-        </section><!-- /#extras -->
+<div class="social">
+<h2>Profiles</h2>        <ul>
+            <li><a href="https://github.com/henriquemiranda">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/mirandahenrique/">LinkedIn</a></li>
+            <li><a href="https://scholar.google.com/citations?user=S9EaNyYAAAAJ&hl=en">Google Scholar</a></li>
+            <li><a href="https://orcid.org/my-orcid?orcid=0000-0002-2843-0876">ORCID</a></li>
+        </ul>
+</div><!-- /.social -->        </section><!-- /#extras -->
 
         <footer id="contentinfo" class="body">
                 <address id="about" class="vcard body">
