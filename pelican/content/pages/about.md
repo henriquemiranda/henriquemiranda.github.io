@@ -11,8 +11,7 @@ Welcome!
 My name is Henrique Pereira Coutada Miranda.
 Currently I am a software developer at [VASP Software GmbH](https://www.vasp.at/) in Vienna.
 
-Here you will find small scripts, games and programs that I implemented and want to share with everyone.   
-Some of these projects are still under development.
+This site collects open-source scientific software, interactive visualisation tools, and smaller experiments that I develop or contribute to.
 
 Short Bio
 ---------
@@ -20,22 +19,22 @@ Short Bio
 
 2017-2019: Post-doc position in the [Université catholique de Louvain](https://uclouvain.be/) in the groups of Prof. Gian-Marco Rignanese and Prof. Geoffroy Hautier
 
-2013-2017: PhD on ["Ab initio approaches to Resonant Raman Spectroscopy of Transition Metal Dichalcogenides"](http://orbilu.uni.lu/handle/10993/32659) under the supervision of
-Prof. Ludger Wirtz in the [Theoretical Solid-State Physics Group](https://wwwen.uni.lu/recherche/fstc/physics_and_materials_science_research_unit/research_areas/theoretical_solid_state_physics)
-in the [University of Luxembourg](https://wwwen.uni.lu/).
+2013-2017: PhD on ["Ab initio approaches to Resonant Raman Spectroscopy of Transition Metal Dichalcogenides"](https://orbilu.uni.lu/handle/10993/32659) under the supervision of
+Prof. Ludger Wirtz in the [Theoretical Solid-State Physics Group](https://www.uni.lu/fstm-en/research-groups/theoretical-solid-state-physics/)
+in the [University of Luxembourg](https://www.uni.lu/en/).
 
 2012-2013: Master thesis on “Embedding schemes for treating magnetic impurities and defects in metallic systems” under the supervision of 
-Prof. Matthieu Verstraete in the [University of Liège](https://www.ulg.ac.be) and 
+Prof. Matthieu Verstraete in the [University of Liège](https://www.uliege.be/cms/c_8699436/en/uliege) and
 Prof. Myrta Gruning at the time in the University of Coimbra now at the [University of Belfast](https://www.qub.ac.uk/).
 
-2011-2013: Master in Physics (specialization in Computational Physics) in the Physics Department of the Faculty of Sciences and Technology of the [University of Coimbra](http://www.uc.pt).
+2011-2013: Master in Physics (specialization in Computational Physics) in the Physics Department of the Faculty of Sciences and Technology of the [University of Coimbra](https://www.uc.pt).
 
-2008-2011: Degree in Physics in the Physics Department of the Faculty of Sciences and Technology of the [University of Coimbra](http://www.uc.pt).
+2008-2011: Degree in Physics in the Physics Department of the Faculty of Sciences and Technology of the [University of Coimbra](https://www.uc.pt).
 
 Phonon and exciton visualization
 --------------------------------
-Excitons: <http://henriquemiranda.github.io/excitonwebsite/>  
-Phonons: <http://henriquemiranda.github.io/phononwebsite/>  
+- Excitons: <https://henriquemiranda.github.io/excitonwebsite/>
+- Phonons: <https://henriquemiranda.github.io/phononwebsite/>
 
 Publications
 ------------
@@ -65,34 +64,39 @@ Publications
 <li>M. Endlich, H. P. C. Miranda, A. Molina-Sánchez, L. Wirtz, and J. Kröger, <a href="http://onlinelibrary.wiley.com/doi/10.1002/andp.201400091/abstract">Annalen der Physik 526, 372 (2014)</a></li>
 </ol>
 
-Projects
---------
-Developer of [yambopy](https://github.com/henriquemiranda/yambopy)  
-Developer of [phononwebsite](https://github.com/henriquemiranda/phononwebsite)  
-Developer of [excitonwebsite](https://github.com/henriquemiranda/excitonwebsite)  
-Colaborator of [yambo](http://www.yambo-code.org/)  
+Software projects
+-----------------
+- Former developer of [yambopy](https://github.com/henriquemiranda/yambopy)
+- Developer of [phononwebsite](https://github.com/henriquemiranda/phononwebsite), including the phonon and exciton visualisers above
+- Former collaborator on [yambo](https://www.yambo-code.org/)
+- Former collaborator on [ABINIT](https://www.abinit.org/)
 
 Contact
 -------
 If you have any suggestions or questions send an e-mail to:  
 miranda.henrique at gmail.com
 
-Funding
--------
+Current affiliation
+-------------------
 
-Fonds National de la Recherche Scientifique (2017-2019): <http://www.fnrs.be/> 
+[VASP Software GmbH](https://vasp.at/) (2019-present)
+
+Past funding and affiliations
+------------------------------
+
+Fonds National de la Recherche Scientifique (2017-2019): <https://www.fnrs.be/>
 
 <img src="{static}/images/fnrs.png" width="150px">
 
-Université Catholique de Louvain (2017-present): <https://uclouvain.be>
+Université Catholique de Louvain (2017-2019): <https://uclouvain.be>
 
 <img src="{static}/images/ucl.jpg" width="150px">
 
-Fonds National de la Recherche Luxembourg (2013-2017): <http://www.fnr.lu/>  
+Fonds National de la Recherche Luxembourg (2013-2017): <https://www.fnr.lu/>
 
 <img src="{static}/images/fnr.jpg" style="width:40%;">
 
-University of Luxembourg (2013-2017): <http://wwwen.uni.lu/> 
+University of Luxembourg (2013-2017): <https://www.uni.lu/en/>
 
 <img src="{static}/images/unilu.png" style="width:20%;">
  

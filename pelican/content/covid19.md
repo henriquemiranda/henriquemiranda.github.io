@@ -9,26 +9,26 @@ So how does this curve look like at the moment? Can we predict how it will look 
 
 One way to do this is use epidemiological compartmental models, such as the SIR model. This model compartments the total number of individuals in three boxes: (S)usceptible to infection, (I)nfected and (R)emoved; and uses some constants to model how many people move between these compartments. The model can be summarized in the following figure.
 
-<img src="{static}/images/sir.png" style="width:80%; display: block; margin-left: auto; margin-right: auto;">
+<img src="{static}/images/covid19/sir.png" style="width:80%; display: block; margin-left: auto; margin-right: auto;">
 
 For a more detailed explanation about the SIR model, you can read the Wikipedia page [here](https://en.wikipedia.org/wiki/Compartmental_models_in_epidemiology#The_SIR_model)
 
 The SIR model for the ongoing corona virus outbreak tends to overestimate the number of infected over time. That is because this model does not account for the effects of quarantine. It doesn't need to be a generalized quarantine, as long as the people that are known to be infected are isolated from the rest of the population. Hence the moto of the WHO to "Test, test and test" for if you test you can isolate the infected and reduce the spread of the disease.
 A model that accounts for the quarantine is represented schematically in the following figure.
 
-<img src="{static}/images/sirx.png" style="width:80%; display: block; margin-left: auto; margin-right: auto;">
+<img src="{static}/images/covid19/sirx.png" style="width:80%; display: block; margin-left: auto; margin-right: auto;">
 
 Where X is the number of people put in quaratine after being infected.
 I first read about this model [here](http://rocs.hu-berlin.de/corona/docs/forecast/model/). I modified it slightly by adding the connection in red (I will explain the reason below).
 They provide their own fit to the number of confirmed cases, using the data from the Johns Hopkins University available [here](https://github.com/CSSEGISandData/COVID-19).
 I wanted to plot the curves of infected people beyond the point where it is shown in their [fits](http://rocs.hu-berlin.de/corona/docs/forecast/results_by_country/) so I did my own python implementation of the SIR-X model.
 Here are the plots and fits for some countries:
-![portugal_model]({static}/images/portugal.png)
-![austria_model]({static}/images/austria.png)
-![italy_model]({static}/images/italy.png)
-![spain_model]({static}/images/spain.png)
-![belgium_model]({static}/images/belgium.png)
-![us_model]({static}/images/us.png)
+![portugal_model]({static}/images/covid19/portugal.png)
+![austria_model]({static}/images/covid19/austria.png)
+![italy_model]({static}/images/covid19/italy.png)
+![spain_model]({static}/images/covid19/spain.png)
+![belgium_model]({static}/images/covid19/belgium.png)
+![us_model]({static}/images/covid19/us.png)
 
 The vertical blue curve represents the day in the title of the graph.
 The blue dots are obtained by subtracting the number of recovered and deaths to the number of confirmed cases.

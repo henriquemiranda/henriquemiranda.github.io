@@ -37,7 +37,7 @@ SOCIAL = (
 
 STATIC_EXCLUDE_SOURCES = False
 PAGE_PATHS = ['pages']
-#STATIC_PATHS = ['images']
+STATIC_PATHS = ['images', 'scripts']
 #MENUITEMS = [('About Me','../index.html')]
 
 LOAD_CONTENT_CACHE = False
