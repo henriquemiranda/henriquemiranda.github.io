@@ -40,6 +40,14 @@ Phonons: <http://henriquemiranda.github.io/phononwebsite/>
 Publications
 ------------
 
+22. L. Chaput, H. Miranda, A. Togo, M. Engel, M. Schlipf, M. Marsman, and G. Kresse, [Phys. Rev. B 113, 014313 (2026)](https://doi.org/10.1103/JH7M-NNJQ)
+21. Y. Wang et al., [PRX Energy 5, 013002 (2026)](https://doi.org/10.1103/w56r-f5yy)
+20. S. Vijay, M. Schlipf, H. Miranda, F. Karsai, M. Kaltak, M. Marsman, and G. Kresse, [Phys. Rev. B 112, 045409 (2025)](https://doi.org/10.1103/cd6s-cdkf)
+19. R. Zhang et al., [Phys. Rev. B 112, L241115 (2025)](https://doi.org/10.1103/84jh-sx4m)
+18. E. Moerman, H. Miranda, A. Gallo, A. Irmler, T. Schäfer, F. Hummel, M. Engel, G. Kresse, M. Scheffler, and A. Grüneis, [Phys. Rev. B 111, L121202 (2025)](https://doi.org/10.1103/PhysRevB.111.L121202)
+17. M. Engel, H. Miranda, L. Chaput, A. Togo, C. Verdi, M. Marsman, and G. Kresse, [Phys. Rev. B 106, 094316 (2022)](https://doi.org/10.1103/PhysRevB.106.094316)
+16. S.P. Ramkumar, G. Petretto, W. Chen, H.P.C. Miranda, X. Gonze, and G.-M. Rignanese, [Phys. Rev. Materials 6, 035403 (2022)](https://doi.org/10.1103/PhysRevMaterials.6.035403)
+15. M. Markov, L. Alaerts, H.P.C. Miranda, G. Petretto, W. Chen, J. George, E. Bousquet, P. Ghosez, G.-M. Rignanese, and G. Hautier, [Proc. Natl. Acad. Sci. U.S.A. 118, e2026020118 (2021)](https://doi.org/10.1073/pnas.2026020118)
 14. C. Trovatello et al., [ACS Nano 14, 5700 (2020)](https://doi.org/10.1021/acsnano.0c00309)
 13. G. Brunin, H.P.C. Miranda, M. Giantomassi, M. Royo, M. Stengel, M.J. Verstraete, X. Gonze, G.-M. Rignanese, and G. Hautier, [Phys. Rev. Lett. 125, 136601 (2020)](https://doi.org/10.1103/PhysRevLett.125.136601)
 12. G. Brunin, H.P.C. Miranda, M. Giantomassi, M. Royo, M. Stengel, M.J. Verstraete, X. Gonze, G.-M. Rignanese, and G. Hautier, [Phys. Rev. B 102, 094308 (2020)](https://doi.org/10.1103/PhysRevB.102.094308)
