@@ -21,7 +21,7 @@
         <header id="banner" class="body">
                 <h1><a href="{{ SITEURL }}/">{{ SITENAME }}</a></h1>
                 {% if SITESUBTITLE %}
-                    <h3>{{ SITESUBTITLE }}</h3>
+                    <h3>{{ SITESUBTITLE|replace('...', '...<br>') }}</h3>
                 {% endif %}
                 <nav><ul>
                 {% for title, link in MENUITEMS %}
@@ -51,9 +51,6 @@
                         {% endfor %}
                         </ul>
                 </div><!-- /.blogroll -->
-        {% endif %}
-        {% if (SOCIAL or FEED_ALL_ATOM or FEED_ALL_RSS) and not (page is defined and page.url == 'index.html') %}
-                {% include 'profiles.html' %}
         {% endif %}
         </section><!-- /#extras -->
 

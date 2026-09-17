@@ -6,6 +6,8 @@ Url: index.html
 
 ![A picture of me]({static}/images/me.jpg)
 
+<!-- profiles -->
+
 Welcome!
 
 My name is Henrique Pereira Coutada Miranda.
@@ -94,9 +96,9 @@ Université Catholique de Louvain (2017-2019): <https://uclouvain.be>
 
 Fonds National de la Recherche Luxembourg (2013-2017): <https://www.fnr.lu/>
 
-<img src="{static}/images/fnr.jpg" style="width:40%;">
+<img src="{static}/images/fnr.jpg" width="300px">
 
 University of Luxembourg (2013-2017): <https://www.uni.lu/en/>
 
-<img src="{static}/images/unilu.png" style="width:20%;">
+<img src="{static}/images/unilu.png" width="150px">
  

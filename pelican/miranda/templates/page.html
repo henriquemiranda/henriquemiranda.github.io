@@ -3,18 +3,27 @@
 {% block content %}
 <section id="content" class="body{% if page.url == 'index.html' %} about-page{% endif %}">
     {% if page.url == 'index.html' %}
-    <aside class="about-profiles">
-        {% set hide_profiles_title = true %}
-        {% include 'profiles.html' %}
-    </aside>
-    <div class="about-main">
-    {% endif %}
+    {% set about_content = page.content.split('<!-- profiles -->', 1) %}
+    <div class="about-overview">
+        <div class="about-intro">
+            <h1 class="entry-title">{{ page.title }}</h1>
+            {% import 'translations.html' as translations with context %}
+            {{ translations.translations_for(page) }}
+            {{ about_content[0] }}
+        </div>
+        <aside class="about-profiles">
+            {% set hide_profiles_title = true %}
+            {% include 'profiles.html' %}
+        </aside>
+    </div>
+    <div class="about-details">
+        {{ about_content[1] }}
+    </div>
+    {% else %}
         <h1 class="entry-title">{{ page.title }}</h1>
         {% import 'translations.html' as translations with context %}
         {{ translations.translations_for(page) }}
         {{ page.content }}
-    {% if page.url == 'index.html' %}
-    </div>
     {% endif %}
 </section>
 {% endblock %}

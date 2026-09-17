@@ -161,12 +161,12 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 }
 
 	/* Banner */
-	#banner h1 {font-size: 3.571em; line-height: 0;}
+	#banner h1 {font-size: 3.571em; line-height: 0; text-align: left;}
 	#banner h1 a:link, #banner h1 a:visited {
 		color: #000305;
 		display: block;
 		font-weight: bold;
-		margin: 0 0 .6em .2em;
+		margin: 0 0 .6em;
 		text-decoration: none;
 	}
 	#banner h1 a:hover, #banner h1 a:active {
@@ -176,11 +176,12 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 	}
 
 	#banner h1 strong {font-size: 0.36em; font-weight: normal;}
+	#banner h3 {text-align: left;}
 
 	/* Main Nav */
 	#banner nav {
 		background: #000305;
-		font-size: 1.143em;
+		font-size: clamp(.6rem, 2.6vw, 1.143em);
 		height: 40px;
 		line-height: 30px;
 		margin: 0 auto 2em auto;
@@ -193,15 +194,16 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 		-webkit-border-radius: 5px;
 	}
 
-	#banner nav ul {list-style: none; margin: 0 auto; width: 100%;}
-	#banner nav li {float: left; display: inline; margin: 0;}
+	#banner nav ul {display: flex; flex-wrap: nowrap; list-style: none; margin: 0 auto; width: 100%;}
+	#banner nav li {display: block; flex: 1 1 0; margin: 0; min-width: 0;}
 
 	#banner nav a:link, #banner nav a:visited {
 		color: #fff;
-		display: inline-block;
+		display: block;
 		height: 30px;
-		padding: 5px 1.5em;
+		padding: 5px clamp(.15em, 1vw, 1.5em);
 		text-decoration: none;
+		white-space: nowrap;
 	}
 	#banner nav a:hover, #banner nav a:active,
 	#banner nav .active a:link, #banner nav .active a:visited {
@@ -229,8 +231,6 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 	margin-bottom: 2em;
 	overflow: hidden;
 	padding: 20px;
-	width: min(100%, 900px);
-
 	border-radius: 10px;
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
@@ -259,8 +259,6 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 	margin-bottom: 2em;
 	overflow: hidden;
 	padding: 20px 20px;
-	width: min(100%, 900px);
-
 	border-radius: 10px;
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
@@ -345,13 +343,12 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 *****************/
 #about {
 	background: #fff;
+	box-sizing: border-box;
 	font-style: normal;
 	margin-bottom: 2em;
 	overflow: hidden;
 	padding: 20px;
 	text-align: left;
-	width: 760px;
-
 	border-radius: 10px;
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
@@ -365,21 +362,23 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 
 #about .bio {float: right; width: 500px;}
 
+/* Keep the header, navigation, content, and footer on one responsive column. */
+#banner, #content, #featured, #about {
+	max-width: 900px;
+	width: calc(100% - 3rem);
+}
+
 /*
 	About-page profiles
 *****************/
-#content.about-page {
-	overflow: hidden;
+#content.about-page .about-overview {
+	display: grid;
+	grid-template-columns: minmax(0, 1fr) minmax(8rem, 190px);
+	gap: clamp(.5rem, 3vw, 2rem);
+	align-items: start;
 }
 
-#content.about-page .about-main {min-width: 0;}
-
-#content.about-page .about-profiles {
-	float: right;
-	width: 190px;
-	margin: .25em 0 1em 2rem;
-	padding: .25em 0;
-}
+#content.about-page .about-profiles {padding: .25em 0;}
 
 .about-profiles ul {list-style: none; margin: 0;}
 .about-profiles h2 {
@@ -400,30 +399,18 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 #contentinfo {padding-bottom: 2em; text-align: right;}
 
 @media (max-width: 700px) {
-	.body {width: calc(100% - 2rem);}
-	#banner {padding-top: 1.5em;}
-	#banner h1 {font-size: 2.5em; line-height: 1;}
-	#banner h1 a:link, #banner h1 a:visited {margin-left: 0;}
-	#banner nav {height: auto; line-height: 1.2;}
-	#banner nav ul {display: flex; flex-wrap: wrap;}
-	#banner nav li {float: none;}
-	#banner nav a:link, #banner nav a:visited {height: auto; padding: .7em 1em;}
 	#content, #featured {padding: 1.25em;}
 	#content img, #featured img {height: auto; max-width: 100%;}
 	#content, #featured, #extras {overflow-wrap: anywhere;}
-	#content.about-page .about-profiles {
-		float: none;
-		width: auto;
-		margin: 0 0 1.5em;
+	#about {
+		box-sizing: border-box;
+		padding: 1.25em;
 	}
 	#extras .social, #extras .blogroll {float: none; width: auto;}
-	#contentinfo {text-align: left;}
+	#contentinfo {overflow-wrap: anywhere; text-align: left;}
 }
 
 @media (max-width: 400px) {
-	.body {width: calc(100% - 1rem);}
-	#banner h1 {font-size: 2em;}
-	#banner nav a:link, #banner nav a:visited {padding: .65em .75em;}
 	#content, #featured {border-radius: 6px; padding: 1em;}
 	#extras {padding-left: 0; padding-right: 0;}
 }
