@@ -161,7 +161,12 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 }
 
 	/* Banner */
-	#banner h1 {font-size: 3.571em; line-height: 0; text-align: left;}
+	#banner h1 {
+		font-size: min(3.571em, calc((100vw - 3rem) * .115));
+		line-height: 0;
+		text-align: left;
+		white-space: nowrap;
+	}
 	#banner h1 a:link, #banner h1 a:visited {
 		color: #000305;
 		display: block;
