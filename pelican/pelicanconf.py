@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
+import os
+from pybtex.database import parse_file
 
 AUTHOR = 'Henrique Miranda'
 SITENAME = 'Henrique Miranda'
@@ -38,6 +40,33 @@ SOCIAL = (
 STATIC_EXCLUDE_SOURCES = False
 PAGE_PATHS = ['pages']
 STATIC_PATHS = ['images', 'scripts']
+STATIC_PATHS.append('publications.bib')
+
+def _load_publications():
+    database = parse_file(os.path.join(PATH, 'publications.bib'))
+    publications = []
+    for key, entry in database.entries.items():
+        authors = []
+        for person in entry.persons.get('author', []):
+            if person.last_names == ['others']:
+                authors.append('et al.')
+            else:
+                initials = ' '.join(name[0] + '.' for name in person.first_names)
+                authors.append(' '.join(filter(None, [initials, ' '.join(person.last_names)])))
+        fields = entry.fields
+        publications.append({
+            'key': key,
+            'authors': ', '.join(authors),
+            'journal': fields.get('journal', ''),
+            'volume': fields.get('volume', ''),
+            'pages': fields.get('pages', ''),
+            'year': fields.get('year', ''),
+            'doi': fields.get('doi', ''),
+        })
+    return sorted(publications, key=lambda paper: paper['year'], reverse=True)
+
+PUBLICATIONS = _load_publications()
+JINJA_GLOBALS = {'PUBLICATIONS': PUBLICATIONS}
 #MENUITEMS = [('About Me','../index.html')]
 
 LOAD_CONTENT_CACHE = False

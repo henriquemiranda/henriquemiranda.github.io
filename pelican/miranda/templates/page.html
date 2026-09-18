@@ -4,6 +4,7 @@
 <section id="content" class="body{% if page.url == 'index.html' %} about-page{% endif %}">
     {% if page.url == 'index.html' %}
     {% set about_content = page.content.split('<!-- profiles -->', 1) %}
+    {% set about_details = about_content[1].split('<!-- publications -->', 1) %}
     <h1 class="entry-title">{{ page.title }}</h1>
     {% import 'translations.html' as translations with context %}
     {{ translations.translations_for(page) }}
@@ -17,7 +18,14 @@
         </aside>
     </div>
     <div class="about-details">
-        {{ about_content[1] }}
+        {{ about_details[0] }}
+        <ol reversed>
+        {% for paper in PUBLICATIONS %}
+            <li>{{ paper.authors }}, <a href="https://doi.org/{{ paper.doi }}">{{ paper.journal }} {{ paper.volume }}, {{ paper.pages }} ({{ paper.year }})</a></li>
+        {% endfor %}
+        </ol>
+        <p><a href="{{ SITEURL }}/publications.bib">Download BibTeX</a></p>
+        {{ about_details[1] }}
     </div>
     {% else %}
         <h1 class="entry-title">{{ page.title }}</h1>
