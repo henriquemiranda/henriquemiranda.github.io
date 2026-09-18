@@ -378,9 +378,16 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 *****************/
 #content.about-page .about-overview {
 	display: grid;
-	grid-template-columns: minmax(0, 1fr) minmax(8rem, 190px);
-	gap: clamp(.5rem, 3vw, 2rem);
+	grid-template-columns: minmax(0, 1fr) minmax(7.5rem, 150px);
+	gap: clamp(.5rem, 2vw, 1.5rem);
 	align-items: start;
+}
+
+#content.about-page .about-intro img {
+	display: block;
+	height: auto;
+	max-width: 420px;
+	width: 100%;
 }
 
 #content.about-page .about-profiles {padding: .25em 0;}
@@ -431,7 +438,11 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 li:last-child .hentry, #content > .hentry {border: 0; margin: 0;}
 #content > .hentry {padding: 1em 0;}
 .hentry img{display : none ;}
-.entry-title {font-size: 3em; margin-bottom: 10px; margin-top: 0;}
+.entry-title {
+	font-size: clamp(1.5rem, calc((100vw - 3rem) * .08), 3em);
+	margin-bottom: 10px;
+	margin-top: 0;
+}
 .entry-title a:link, .entry-title a:visited {text-decoration: none; color: #333;}
 .entry-title a:visited {background-color: #fff;}
 
