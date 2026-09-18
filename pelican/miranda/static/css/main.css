@@ -378,9 +378,16 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 *****************/
 #content.about-page .about-overview {
 	display: grid;
-	grid-template-columns: minmax(0, 1fr) minmax(8rem, 190px);
-	gap: clamp(.5rem, 3vw, 2rem);
+	grid-template-columns: minmax(0, 1fr) minmax(7.5rem, 150px);
+	gap: clamp(.5rem, 2vw, 1.5rem);
 	align-items: start;
+}
+
+#content.about-page .about-intro img {
+	display: block;
+	height: auto;
+	max-width: 420px;
+	width: 100%;
 }
 
 #content.about-page .about-profiles {padding: .25em 0;}
